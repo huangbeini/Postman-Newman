@@ -1,0 +1,6791 @@
+{
+	"id": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+	"name": "hsq_internalapi_beta",
+	"description": "好食期Internalapi接口集合 beta环境",
+	"order": [
+		"80286d1b-8e12-e756-d93b-8b214f932741",
+		"78d6ea71-f41b-d688-fa6e-e000bb5ab08e",
+		"39ca6132-342e-316d-fb95-d7e48bb149e8",
+		"deae74c9-9eea-9641-c49c-0a0171a2db06",
+		"9f427ffb-3fea-dc43-89a0-fae02f69e803",
+		"a85e428b-c30c-3fd3-316e-79994579bea8",
+		"b9c70ef0-c739-14fb-acd0-1006e0cc2c68",
+		"95abd14b-5ffa-a217-c5e2-0dbb37cd2194",
+		"1d4a478f-2769-2d69-109c-11c94111a954",
+		"f54e79c1-1fbd-1e5f-ea44-3e280b632979",
+		"9d99bab0-3f5d-a32c-18bc-9cdef1b9f730",
+		"fa0b072f-824c-c19d-a8d8-9efa61b677d4",
+		"fec8588b-a1e1-b50e-ffdc-f746e8fb4723",
+		"11c69719-07a8-f41e-35e9-1d9e695b778f",
+		"ca4005fb-a867-df97-1f4b-d0a536c3445b",
+		"e7bb6467-d390-a7cb-3d58-1b80bc47009f",
+		"41517e14-9b3b-a416-152b-eccc2681bd4e",
+		"e36a7011-063b-25f6-d33b-eba56a9aefcb",
+		"6e8544a6-791e-3872-2ddc-82f7f2257f7b",
+		"049f3236-b28f-ada7-cb98-4494efbfbb8c",
+		"27c8a53f-887b-e179-5f44-1704f9b154d3",
+		"5a20150b-f7a1-6356-b4dd-9a37cec46844",
+		"815fada2-046a-4f0b-cc20-4dc0e1d6995f",
+		"475542b4-5dcd-72ed-fc4f-229fd8cefc3e",
+		"182b153e-a3f0-4bba-300a-58feda524d8e",
+		"b0650699-7b49-6da2-651e-974b23319147",
+		"499114e0-11eb-49f6-d5bc-b3055961f22b",
+		"27dc1829-45e5-6d69-7dc7-66c7b10bca33",
+		"6de67570-b77f-4eab-6507-684994225e33",
+		"0094e160-3aad-7588-fd58-fd3aaf102fba",
+		"ca6b1d86-5150-d355-e85c-59212feb72f4",
+		"0ecd3dfd-8c20-2ad5-60c8-aeb5586442b3",
+		"8d344a18-2cd1-1949-22d0-e1eb8773528c",
+		"8acc8e9a-7543-3d31-424c-95abdb04fb3c",
+		"6ff3e9ef-4c48-e72b-a287-417360db07cf",
+		"59bc11dd-83f1-9b4e-1944-8563f635e3ac",
+		"249ca1f4-9438-7845-4d2b-bae801f8d87d",
+		"c5b295e6-eb7c-7478-46e2-95f100344716",
+		"abcbd093-d55f-bcfa-921d-9097798766f4",
+		"cf3b65f3-a6cf-0e69-2cd9-7465c48ad7a3",
+		"064ecb9a-ff7c-0b58-d5b8-1364f1709390",
+		"9c0532c0-278e-2c82-c091-34a4476aa3b8",
+		"0eb42f03-242a-22f3-d8bf-34d216979c73",
+		"575601fb-8025-7106-e61e-e774565a8f24",
+		"004378c6-8f3b-a54c-d7f2-8c28294c3333",
+		"8ac32157-87e2-6dea-1d3e-908adb423353",
+		"249a5f7e-b546-841d-d9ea-161e47958ab2",
+		"80be14d3-2e7d-f08e-3739-28a2c60866e2",
+		"4f8e1d65-3a0f-e585-7100-63f9adaf1e00",
+		"abde5b33-9926-0498-bb54-5a06262a3874",
+		"b2d8b5ed-be2b-b6fb-4fd5-bfa926634c79",
+		"3310d28e-fed7-4348-12c0-06cbaca7380a",
+		"463498a1-20b9-2e7c-086a-124813a738d0",
+		"de721880-705a-1608-c647-6f69d268e452",
+		"9a2d494e-7f56-720d-e024-d4f0fb4dde32",
+		"a266bdc3-c6a5-bb91-a089-95803db7a325",
+		"12c16316-ff67-4bf1-2c88-fa66551db21c",
+		"1a50fde6-c413-d80b-c5e7-5017f224a762",
+		"90e45489-e560-ed1f-4d3b-e895613e143d",
+		"48da6713-01a2-5e4c-9fed-db29045713f1",
+		"4d38859e-be71-4074-5413-d8addf0ea461",
+		"cdb7947d-92a9-e223-6ede-f9acea163a68",
+		"fc357806-6b66-4c75-fef3-2d8577dfbfc2",
+		"3110f6aa-9a30-8290-08d8-72ed20e946fe",
+		"b962a9fb-8fc0-f394-56b3-ea56b687563a",
+		"4ab7b5b1-a350-138b-bef8-c58c0187fb04",
+		"840e6235-78c6-0874-086f-4ba0dc0cc6af",
+		"a303c342-1853-856b-d508-425a0bc38cca",
+		"e762122d-7f7b-507c-409b-b7ef63817f90",
+		"7b95f8eb-6b98-88df-72f4-d5b99dce3923",
+		"3027404b-637c-d6cb-f8a9-a66e04d5f3a6",
+		"7edd5de1-2312-e41d-6264-5285dce9d8cc",
+		"6584b670-90cb-c5d1-4d9c-5942fd229914",
+		"1438fdbf-2bd7-3bfc-820d-7a6b7732b0de",
+		"5f7a4eae-a059-8b13-5de3-8cb99585ff15",
+		"cd1f9096-be2a-0f22-fbe3-77199c2caaf9",
+		"af9af7ad-9aa0-4892-9d54-7a0e8bc2d9c7",
+		"cb301046-681b-4bc8-6873-f3b9ba18709b",
+		"b7b95a67-1a7c-36a9-fdd1-87a68f9dd862",
+		"0412b90b-47ee-6cd8-c971-80a7f0aaa4fd",
+		"ca3c7642-d5c8-18a0-eb4a-d0b04d69508e",
+		"a2349487-bd5e-9233-3f33-8a408aa4cc60",
+		"1ea52d8e-dbf8-3102-8637-b9832be2d6ba",
+		"efb5e06d-43c7-f29b-c557-4c848b62ab2b",
+		"b2be1898-ae93-e192-8ab0-2b60abd5870e",
+		"51456f2a-cb5d-d8fc-7d79-e2b25f463d82",
+		"a59ea14f-594e-ae73-b350-1d5807f00873",
+		"f3189758-f34a-4289-0dc8-dc018b1df247",
+		"09217778-1d08-e153-35d4-eefb686ea7b4",
+		"da0e4aff-e400-c69e-5805-685a67b7ee9d",
+		"6d0d3bda-2f35-12d0-08a3-9f908c11a764",
+		"757773c8-400f-3eb1-9caa-93dc164a824a",
+		"2314ef45-8f57-df75-43ef-53a19444db38",
+		"6094bbb3-f170-c43a-53d0-38b772bbfd24",
+		"3963ac11-183d-dc72-ded1-d1e56b50ba1e",
+		"dea4d888-63ce-e3fa-95f1-f7fad662b646",
+		"f0da661c-4f72-fc8b-557a-87bd13a98c16",
+		"5fd040bd-180f-3447-4cea-8f644fc11bd3",
+		"75ba576d-9097-e844-aea5-d550b71222de",
+		"1ceff71e-ef7c-8bf9-e596-52df792432e6",
+		"41d9aae5-2836-584c-0918-f032456d73c7",
+		"30e3fbd2-04d7-b084-ceb2-2e54c535f1a0",
+		"446c9065-1bd8-ace2-8aab-edba313fd4ea",
+		"5f2786a0-1cdd-d725-4438-5c3429d94aa8",
+		"4a60bee8-492d-f7a7-80e7-96e5a8677e6d",
+		"e2e0e121-950d-b24b-e999-aa24ef4fcd6b",
+		"5ecfe11d-0fb4-a294-b65d-809ca9c34961",
+		"e29d2744-30e1-3dc9-1ffe-778106930da3",
+		"721b9b4a-40aa-e343-906a-9546e8362b6f",
+		"195f0175-8354-930f-3d6e-7186047f9fa8",
+		"ede9d317-ad99-80d7-dd91-8d5ad738a8c0",
+		"d55f69b2-da99-39d3-e2cd-42e6ee91dcd1",
+		"cb96a437-6df3-2af4-5bb6-1ab1d92e3045",
+		"2f772abe-c238-6a21-aeca-d730fbee6a17",
+		"6ee635d6-82f3-3eec-d63e-3aefdcab956b",
+		"ecfe5805-58d4-5555-b09c-dd29516536b8",
+		"bc0c86cc-d0a3-3bde-73bd-2675c815315d",
+		"c633e38f-df98-b29c-8988-98f51b371f41",
+		"55727075-f6ac-2199-b9c2-6439f24e80bd",
+		"ab8da6f9-4534-d318-3d85-83418011930f",
+		"99ffa23a-bf38-0fb5-76a5-f97e5f30f17d",
+		"953f5473-9dca-0b15-6b9f-cec608c1a59d",
+		"e1244fc5-e931-ae32-d32f-717327d8d638",
+		"026f35d2-099a-2d97-9e85-1e1b050a3758",
+		"37fd835e-4f3b-be79-94ed-b781344c0926",
+		"c8e88a9a-9699-e6ea-4399-feb3b5cc7e89",
+		"53b6f785-2847-3da3-dc6e-3833dc8e0604",
+		"de815a5c-0a1f-3031-a137-307ccb62625b",
+		"1ba54490-702e-3203-f384-a48a7b87eb3a",
+		"3788c4a8-57cd-482f-e354-c2c70608db17",
+		"8ef08bd0-ec81-0439-2098-efc3a514adb3",
+		"7c847efa-d1dc-b72d-3949-4bb5ddeaff0e",
+		"4f720e34-26eb-1b7a-4cf0-b0750417e4b6",
+		"a300cc20-8701-c60b-7101-b16419da295d",
+		"57101b17-401b-2812-0763-0266693b31fc",
+		"dbd6bdb1-50ac-e8ba-1c21-e07759aba758",
+		"d8ea4fd3-bfb5-b943-38a8-ba0f74361b9d",
+		"c651bb4f-0ebf-b047-dce3-8897a2fc3bf9",
+		"8d5a43ed-b474-6afa-a681-d3acfcb2f7b0",
+		"a08d0201-3ba2-d5f5-7755-9586903c01d3",
+		"6de36daa-e237-a4be-c2cc-4a1941f9d571",
+		"691ddec4-2c98-3556-a573-2eb1575d0664",
+		"6249eaa7-0561-8395-fd82-5422a247e3a8",
+		"69d37e34-a96d-0bb7-37fc-6cb6b26df04b",
+		"2feca75e-8c3d-9d42-ed52-4a7a34e1ab28",
+		"58c20c48-2bf5-8b64-997a-267ce3b0306e",
+		"4b51fbe4-8c12-fd91-3a52-dda212162a9a",
+		"74deeeb1-a9fd-c44d-34fc-6997da0135f2",
+		"f2a8ce4f-3760-5fff-d3d7-c2b98acf4cb1",
+		"ec42c852-8620-0b6d-06e0-37495340a672",
+		"527ce3ea-0ad7-1932-65a2-130ff57976cc",
+		"31f787e1-b617-ac44-49dc-fa8ddac5067a",
+		"4556aa38-9254-52c4-06bf-7ef55a4d2276",
+		"7086c968-d87c-5973-0ac3-366668f7effe",
+		"58de2b28-39a3-d839-7787-896dbe4ee417",
+		"7572d542-e3f0-bb22-9b8c-6bae8d30f6f1",
+		"96cb6c19-a806-e08b-8d96-b8ba523fe8cd",
+		"67dbe80a-7c8c-bb8b-b4b4-2f596ba0ec3d",
+		"3947050d-f062-ddc1-9f31-9e7e71c0b49f",
+		"da279f76-6d00-a5e0-22c8-8eff821aa66b",
+		"8edb4e7a-4459-1945-f13d-bd49e1fcf8b2",
+		"3ac1ffda-c8e6-ca56-d4ca-da60569635cf",
+		"77041f30-bb28-67fc-662e-b30a7b11c724",
+		"8e54e874-4dee-2110-056b-a918a1fe81c8",
+		"1ad69b24-80f0-9b95-c658-16e35a695412",
+		"16ef95f3-f5d2-2720-1df5-eebd217c38d6",
+		"79186de3-6bc1-6a20-29d5-fd03a3026627",
+		"e5decaf2-6a8f-5ccb-a456-13d7f01510b7",
+		"6dbc988c-407f-235c-066b-694dc7173f9b",
+		"5533b6e4-38f5-bc89-4b67-e5f2d1d64e94",
+		"9b89bdfb-3cf2-dd5c-a075-708c6a5941a0",
+		"c02429a1-b825-9823-01cb-7cb8f929d910",
+		"1f7ed02b-73d2-f289-2ebe-990ae892631e",
+		"22a9192e-5b34-afd6-03bc-3cd16a028def",
+		"8fe339ad-204e-e142-fca7-c14d3ebf509b",
+		"2de6b732-4ab6-e78d-daff-451363f2b8b7",
+		"8551af0a-0b27-2076-bfa8-7d285fe637fd",
+		"b0a879a7-510c-7b82-9fdb-97cdba2cacee",
+		"80b34524-69f3-2561-3f3b-689d553faccd",
+		"5d5aa275-763e-02f4-6095-e924237e9b6b",
+		"21fb4f1f-a687-83cb-5ad8-1a9ecf4e16b8",
+		"475390a5-3cc1-d7c8-f5e4-5f6af489017d",
+		"37591aaa-4686-09fb-12e9-7c3b092df879",
+		"c2ee7e9e-3fb1-9101-3ea1-9fd916ad123c",
+		"56edfb10-cbe7-6e04-5ef0-78806852ff35",
+		"fdd4a9eb-3bbc-1a23-f480-e0158b911815",
+		"f9ac305b-8d9f-4808-a0e9-ee34f4387615",
+		"cb904d6c-a07f-2489-c9ae-dd3c22d65773",
+		"72ee7319-8e0b-7ee4-315d-ba0bb0ad11e1",
+		"607eb682-ce7b-81fa-693e-9cc8fbd73133",
+		"b8bcec3a-26fb-d211-ea53-5c150487c680",
+		"1270b9a3-9170-9b22-e4ce-20d796d470c6",
+		"d591b12b-fa5b-b052-604e-0b22108b7cab",
+		"8069ee32-fc19-c6ff-12eb-bd927cc60c8f",
+		"c51c31f6-a94c-c552-52b0-55e267be1aa6",
+		"1f76d317-42b1-20fb-a79e-ac0e16ecc47f",
+		"f05b2380-af88-2839-1170-2aa793824206",
+		"26f419b7-8ccb-32c8-1391-14ac25fabd0c",
+		"18a4dbe9-32f3-4eb7-4da4-7fd5ae69ab61",
+		"dec42644-fde2-13c5-0040-40e27cf8225c",
+		"5d795ec0-375d-fa5a-f8a3-5fba38465bc8"
+	],
+	"folders": [],
+	"timestamp": 1469774768300,
+	"owner": "278877",
+	"remoteLink": "",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "004378c6-8f3b-a54c-d7f2-8c28294c3333",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/skuoffline",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "117",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775054836,
+			"name": "Sku/Offline",
+			"description": "单品下线",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "0094e160-3aad-7588-fd58-fd3aaf102fba",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productattributes?productId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "17091915859",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "verifyCode",
+					"value": "080307",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "853b8fe05525566f11474aea44dd5593",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "originMobile",
+					"value": "18601652023",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775008852,
+			"name": "Product/ProductAttributes",
+			"description": "获取商品属性列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "026f35d2-099a-2d97-9e85-1e1b050a3758",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantbill?merchantId=101",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "104",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "billStart",
+					"value": "1453046400",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "billEnd",
+					"value": "1453651200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "receiveMoney",
+					"value": "2459",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundMoney",
+					"value": "2459",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "receiveInfo",
+					"value": "a:1:{i:0;a:14:{s:2:\\\"id\\\";i:2147483889;s:7:\\\"user_id\\\";i:10000001;s:11:\\\"merchant_id\\\";i:104;s:12:\\\"market_price\\\";i:5600;s:9:\\\"pay_price\\\";i:2459;s:12:\\\"refund_money\\\";i:2459;s:14:\\\"discount_price\\\";i:0;s:11:\\\"total_price\\\";i:2459;s:12:\\\"total_amount\\\";i:1;s:14:\\\"need_pay_price\\\";i:2459;s:8:\\\"pay_time\\\";i:1453279444;s:12:\\\"confirm_time\\\";i:0;s:10:\\\"created_at\\\";i:1453279429;s:10:\\\"audit_time\\\";i:1453279465;}}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundInfo",
+					"value": "a:1:{i:0;a:14:{s:2:\\\"id\\\";i:2147483889;s:7:\\\"user_id\\\";i:10000001;s:11:\\\"merchant_id\\\";i:104;s:12:\\\"market_price\\\";i:5600;s:9:\\\"pay_price\\\";i:2459;s:12:\\\"refund_money\\\";i:2459;s:14:\\\"discount_price\\\";i:0;s:11:\\\"total_price\\\";i:2459;s:12:\\\"total_amount\\\";i:1;s:14:\\\"need_pay_price\\\";i:2459;s:8:\\\"pay_time\\\";i:1453279444;s:12:\\\"confirm_time\\\";i:0;s:10:\\\"created_at\\\";i:1453279429;s:10:\\\"audit_time\\\";i:1453279465;}}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775304997,
+			"name": "/Merchant/MerchantBill",
+			"description": "获取商户对账信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "0412b90b-47ee-6cd8-c971-80a7f0aaa4fd",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantbrandlicenses?merchantName=外来",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "106",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "通过",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandLicenseId",
+					"value": "22",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775167713,
+			"name": "Merchant/MerchantBrandLicenses",
+			"description": "获取商户品牌授权",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "049f3236-b28f-ada7-cb98-4494efbfbb8c",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/districtinfo?districtId=15",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774973415,
+			"name": "Nation/DistrictInfo",
+			"description": "获取行政区信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "064ecb9a-ff7c-0b58-d5b8-1364f1709390",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/skuonline",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "117",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775040796,
+			"name": "Sku/SkuOnline",
+			"description": "sku上架",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "09217778-1d08-e153-35d4-eefb686ea7b4",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getorderpayment?paymentId=3&userId=16",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "token",
+					"value": "fb930e094df88a426649fe4b26cda894",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":115,\"amount\":5,\"price\":2680}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775194936,
+			"name": "TradeOrder/GetOrderPayment",
+			"description": "获取支付单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "0eb42f03-242a-22f3-d8bf-34d216979c73",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantinfo?merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775047892,
+			"name": "Merchant/MerchantInfo",
+			"description": "商户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "0ecd3dfd-8c20-2ad5-60c8-aeb5586442b3",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productDetail?productId=60",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775014830,
+			"name": "product/productDetail",
+			"description": "商品详情",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "11c69719-07a8-f41e-35e9-1d9e695b778f",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/addaddress",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "provinceId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cityId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "districtId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "王小飘",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "15067243214",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detailAddress",
+					"value": "张江镇",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isDefault",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774953959,
+			"name": "User/AddAddress",
+			"description": "添加用户地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "1270b9a3-9170-9b22-e4ce-20d796d470c6",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/oprefundorderlist?status=2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775516279,
+			"name": "/tradeorder/oprefundorderlist",
+			"description": "运营待审核退款列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "12c16316-ff67-4bf1-2c88-fa66551db21c",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/likeproduct?userId=1&skuIds=113",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775093612,
+			"name": "User/LikeProduct",
+			"description": "关注单品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "1438fdbf-2bd7-3bfc-820d-7a6b7732b0de",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantextinfo?merchantId=3",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775149018,
+			"name": "Merchant/MerchantExtInfo",
+			"description": "商户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "16ef95f3-f5d2-2720-1df5-eebd217c38d6",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addrewardrule",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "user",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userType",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rewardId",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "couponTitle",
+					"value": "新人优惠券",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "couponId",
+					"value": "10",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775437478,
+			"name": "/ump/addrewardrule",
+			"description": "保存活动规则",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "182b153e-a3f0-4bba-300a-58feda524d8e",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/districtlist?cityId=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "token",
+					"value": "853b8fe05525566f11474aea44dd5593",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "birthday",
+					"value": "1999-02-08",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "avatar",
+					"value": "sssssss",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "CWAY",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774991750,
+			"name": "Nation/DistrictList",
+			"description": "获取行政区县列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "18a4dbe9-32f3-4eb7-4da4-7fd5ae69ab61",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/settleorderlist?billId=1483",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/tradeorder/settleorderlist",
+			"description": "获取对账支付订单列表",
+			"descriptionFormat": "html",
+			"time": 1470641123989,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "195f0175-8354-930f-3d6e-7186047f9fa8",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/verifydeliveryrange?merchantId=1&provinceId=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775261030,
+			"name": "/Merchant/VerifyDeliveryRange",
+			"description": "验证商户配送范围",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "1a50fde6-c413-d80b-c5e7-5017f224a762",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/ugclist?merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775096771,
+			"name": "Merchant/UgcList",
+			"description": "获取商户评论列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "1ad69b24-80f0-9b95-c658-16e35a695412",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addreward",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "Coupon",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quota",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stock",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "url",
+					"value": "http://baidu.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "新人券活动",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subTitle",
+					"value": "新人券活动副标题",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "活动简介",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hasRule",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "startAt",
+					"value": "1000000000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endAt",
+					"value": "1500000000",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775434567,
+			"name": "/ump/addreward",
+			"description": "添加营销活动",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "1ba54490-702e-3203-f384-a48a7b87eb3a",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantauditinfo?merchantId=101",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775322653,
+			"name": "/Merchant/MerchantAuditInfo",
+			"description": "获取商户审核信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "1ceff71e-ef7c-8bf9-e596-52df792432e6",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/expiredorderlist",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775229240,
+			"name": "TradeOrder/ExpiredOrderList",
+			"description": "过期订单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "1d4a478f-2769-2d69-109c-11c94111a954",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/itemsinfo?skuIds=113",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774937792,
+			"name": "Sku/ItemsInfo",
+			"description": "单品基本信息列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "1ea52d8e-dbf8-3102-8637-b9832be2d6ba",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getthirdpartyuser?userId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775177289,
+			"name": "User/GetThirdpartyUser",
+			"description": "获取用户第三方帐号",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "1f76d317-42b1-20fb-a79e-ac0e16ecc47f",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/opauditrefundorder",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": [
+				{
+					"key": "opUserId",
+					"value": "10000038",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundOrderId",
+					"value": "66",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "通过",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/tradeorder/opauditrefundorder",
+			"description": "运营审核退款单",
+			"descriptionFormat": "html",
+			"time": 1470121061242,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1f7ed02b-73d2-f289-2ebe-990ae892631e",
+			"headers": "",
+			"url": "{{beta internalapi}}/reward/shareactivityinfo?activityId=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775458575,
+			"name": "/reward/shareactivityinfo",
+			"description": "获取分享活动信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "21fb4f1f-a687-83cb-5ad8-1a9ecf4e16b8",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/delproducttag",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "102",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tag",
+					"value": "皇室",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775482599,
+			"name": "/product/delproducttag",
+			"description": "删除商品标签",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "22a9192e-5b34-afd6-03bc-3cd16a028def",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/disablereward",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "rewardCode",
+					"value": "newuserinv",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775461256,
+			"name": "/ump/disablereward",
+			"description": "作废活动码",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "2314ef45-8f57-df75-43ef-53a19444db38",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/syncorderdeliverymsg",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "orderId",
+					"value": "2147483731",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryNo",
+					"value": "3321251563892",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryComCode",
+					"value": "shengtongwuliu",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryComName",
+					"value": "申通物流2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "msg",
+					"value": "[{\"已揽件\"}{\"发货中\"}}]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "102",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775206602,
+			"name": "TradeOrder/SyncOrderDeliveryMsg",
+			"description": "同步订单物流信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "249a5f7e-b546-841d-d9ea-161e47958ab2",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/getaddress?merchantId=1&type=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775060556,
+			"name": "Merchant/GetAddress",
+			"description": "获取商户地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "249ca1f4-9438-7845-4d2b-bae801f8d87d",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/updatesku",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "74",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "batch",
+					"value": "1447948800",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stock",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Loacker",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "1200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "marketPrice",
+					"value": "22200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lowestPrice",
+					"value": "1100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiredDate",
+					"value": "2015-11-20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "manufacturedDate",
+					"value": "2015-11-19",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pics",
+					"value": "http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2dFVWgFXXXXXOXpXXXXXXXXXX_%21%21128453551%20%2838%29.jpg,http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2B489gFXXXXXJXXXXXXXXXXXX_%21%21128453551%20%2832%29.jpg,http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2haSWgFXXXXbFXXXXXXXXXXXX_%21%21128453551%20%2826%29.jpg,http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2L4J.gFXXXXXSXXXXXXXXXXXX_%21%21128453551%20%2822%29.jpg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detail",
+					"value": "{}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantItemCode",
+					"value": "code",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "taste",
+					"value": "xxxdf",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "volume",
+					"value": "xxxd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775029092,
+			"name": "sku/updatesku",
+			"description": "更新单品信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "26f419b7-8ccb-32c8-1391-14ac25fabd0c",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/skusboughtcnt?userId=100000005&skuIds=1111&duration=1111",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/user/skusboughtcnt",
+			"description": "批量获取用户购买记录",
+			"descriptionFormat": "html",
+			"time": 1470635743844,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "27c8a53f-887b-e179-5f44-1704f9b154d3",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/addproduct",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "测试商品",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "thumbnail",
+					"value": "http://",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "attrIds",
+					"value": "1,2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cateIds",
+					"value": "1,3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "packageType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detail",
+					"value": "{\"graphicDetail\":\"html\"}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "offlineBeforeExpired",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "producingArea",
+					"value": "上海",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774976646,
+			"name": "Product/AddProduct",
+			"description": "添加商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "27dc1829-45e5-6d69-7dc7-66c7b10bca33",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/onlinesku?selledCnt=0&merchantId=1&name=茱蒂丝&subCategoryId=1&categoryId=2&price=1000",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775002252,
+			"name": "Merchant/OnlineSku",
+			"description": "在售商sku",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "2de6b732-4ab6-e78d-daff-451363f2b8b7",
+			"headers": "",
+			"url": "{{beta internalapi}}/coupon/couponoprcdinfo?couponRcdId=33",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775467367,
+			"name": "/coupon/couponoprcdinfo",
+			"description": "优惠券使用记录详细信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "2f772abe-c238-6a21-aeca-d730fbee6a17",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/refundorderpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "orderId",
+					"value": "413",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "opUserId",
+					"value": "22",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775272803,
+			"name": "/Merchant/RefundOrderPayment",
+			"description": "商户提交退款",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "2feca75e-8c3d-9d42-ed52-4a7a34e1ab28",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/setproductspriority?productIds=   ",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775372081,
+			"name": "/product/setproductspriority",
+			"description": "批量设置商品优先级",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "3027404b-637c-d6cb-f8a9-a66e04d5f3a6",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/getmerchantqualification?merchantId=12",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775139586,
+			"name": "Merchant/GetMerchantQualification",
+			"description": "获取商户资质",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "30e3fbd2-04d7-b084-ceb2-2e54c535f1a0",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/orderscnt?userId=16&status=4",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775234797,
+			"name": "/User/OrdersCnt",
+			"description": "获取用户订单数量",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "3110f6aa-9a30-8290-08d8-72ed20e946fe",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/islikesku?skuId=113&userId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775115450,
+			"name": "User/IsLikeSku",
+			"description": "用户是否关注某商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "31f787e1-b617-ac44-49dc-fa8ddac5067a",
+			"headers": "",
+			"url": "{{beta internalapi}}/common/indexmodule?type=1&clientType=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775394058,
+			"name": "/common/indexmodule",
+			"description": "获取首页模块数据",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "3310d28e-fed7-4348-12c0-06cbaca7380a",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/updateskustock",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "133",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stockCnt",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775076308,
+			"name": "Sku/UpdateSku",
+			"description": "更新单品库存",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "37591aaa-4686-09fb-12e9-7c3b092df879",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addrewardphone",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "rewardCode",
+					"value": "xxxxx",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "11112",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775487911,
+			"name": "/ump/addrewardphone",
+			"description": "添加活动手机",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "3788c4a8-57cd-482f-e354-c2c70608db17",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/submitaudit",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775325596,
+			"name": "/Merchant/SubmitAudit",
+			"description": "商户提交审核",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "37fd835e-4f3b-be79-94ed-b781344c0926",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/summaryrefundorderlist?merchantId=102&billStart=1451577600&billEnd=1453046400",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775307838,
+			"name": "/Merchant/SummaryRefundOrderList",
+			"description": "获取账期内对款订单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "3947050d-f062-ddc1-9f31-9e7e71c0b49f",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addspecialtopic",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "标题",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subTitle",
+					"value": "副标题",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "描述",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mainPic",
+					"value": "主图",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "startTime",
+					"value": "11111",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endTime",
+					"value": "11111",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775415216,
+			"name": "/ump/addspecialtopic",
+			"description": "增加专题",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "3963ac11-183d-dc72-ded1-d1e56b50ba1e",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/deliveryorders?type=2&merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "token",
+					"value": "fb930e094df88a426649fe4b26cda894",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":113, \"amount\":12}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775213870,
+			"name": "Merchant/DeliveryOrders",
+			"description": "获取商户物流待处理订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "39ca6132-342e-316d-fb95-d7e48bb149e8",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/createorder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addressId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "productId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuInfo",
+					"value": "[{\"skuId\":1,\"amount\":1}]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "appstore",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpsName",
+					"value": "BaiduIndex",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tsmcid",
+					"value": "WifiKey",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lat",
+					"value": "20.123121",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lng",
+					"value": "123.321231",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip",
+					"value": "12121212",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "s",
+					"value": "askfjwoiofklasnfokwnfiownfasfmawoi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deviceType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryCityId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryProvinceId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryDistrictId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774916082,
+			"name": "TradeOrder/CreateOrder",
+			"description": "创建订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "3ac1ffda-c8e6-ca56-d4ca-da60569635cf",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/specialtopiclist",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775423910,
+			"name": "/ump/specialtopiclist",
+			"description": "获取专题列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "41517e14-9b3b-a416-152b-eccc2681bd4e",
+			"headers": "",
+			"url": "{{beta internalapi}}/address/getaddress?addressId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774964872,
+			"name": "Address/GetAddress",
+			"description": "获取收获地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "41d9aae5-2836-584c-0918-f032456d73c7",
+			"headers": "",
+			"url": "{{beta internalapi}}/ugc/usercomment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "21",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subOrderId",
+					"value": "287",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "Hi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "score",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "不错哟",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryScore",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantScore",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775231903,
+			"name": "Ugc/UserComment",
+			"description": "用户评论订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "446c9065-1bd8-ace2-8aab-edba313fd4ea",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/suborderscnt?userId=&type=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775237350,
+			"name": "/User/SubOrdersCnt",
+			"description": "获取用户子订单数量",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "4556aa38-9254-52c4-06bf-7ef55a4d2276",
+			"headers": "",
+			"url": "{{beta internalapi}}/common/hotsearchsug",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775397194,
+			"name": "/common/hotsearchsug",
+			"description": "获取搜索热词",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "463498a1-20b9-2e7c-086a-124813a738d0",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getusercart?userId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775079002,
+			"name": "User/GetUserCart",
+			"description": "获取用户购物车信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "475390a5-3cc1-d7c8-f5e4-5f6af489017d",
+			"headers": "",
+			"url": "{{beta internalapi}}/coupon/couponssearch",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775485104,
+			"name": "/coupon/couponssearch",
+			"description": "优惠券搜索",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "475542b4-5dcd-72ed-fc4f-229fd8cefc3e",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/provincelist",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774988518,
+			"name": "Nation/ProvinceList",
+			"description": "获取省份列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "48da6713-01a2-5e4c-9fed-db29045713f1",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/updatemerchantinfo",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "来伊份",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logo",
+					"value": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3005150014,4035941193&fm=96",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "来伊份成立于1999年，公司主营业务为休闲食品经营，产品覆盖炒货、蜜饯、肉制品等九大系列，达到700多种。2013年销售额超过30亿，全国员工人数近1万名[1]  。目前在上海、江苏、浙江等9个省、直辖市[2]  已拥有连锁直营专卖店超过2500多家，并获得”上海市著名商标”、”上海名牌产品”、”2010上海世博会特许产品零售商”等多项荣誉。",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "施永雷",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contactPhone",
+					"value": "13110110110",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "legalPerson",
+					"value": "施永雷",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "registrationAddress",
+					"value": "上海",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "registrationNumber",
+					"value": "9500195002",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contactAddress",
+					"value": "上海",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "postCode",
+					"value": "31200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "companyProperty",
+					"value": "传统零食行业",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "licenseStartTime",
+					"value": "1428208000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "licenseExpiredTime",
+					"value": "1488208000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "licenseBusinessRange",
+					"value": "零食百货",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "productSource",
+					"value": "自产",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "officalWebsite",
+					"value": "http://www.laiyifen.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775103260,
+			"name": "Merchant/UpdateMerchantInfo",
+			"description": "更新商户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "499114e0-11eb-49f6-d5bc-b3055961f22b",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/setdefaultaddress",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addressId",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774997735,
+			"name": "User/SetDefaultAddress",
+			"description": "设置默认收货地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "4a60bee8-492d-f7a7-80e7-96e5a8677e6d",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantsextinfo?merchantIds=1,2,4",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775243444,
+			"name": "/Merchant/MerchantsExtInfo",
+			"description": "批量获取商户扩展信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "4ab7b5b1-a350-138b-bef8-c58c0187fb04",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/updateusercart",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "totalSkuCnt",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "singleSkuCnt",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775121492,
+			"name": "User/UpdateUserCart",
+			"description": "更新用户购物车信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "4b51fbe4-8c12-fd91-3a52-dda212162a9a",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/setfreedeliveryprice",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "freeDeliveryPrice",
+					"value": "9900",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775378018,
+			"name": "/merchant/setfreedeliveryprice",
+			"description": "修改商户免运费活动价格",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "4d38859e-be71-4074-5413-d8addf0ea461",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantsinfo?merchantIds=1,3",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775106620,
+			"name": "Merchant/MerchantsInfo",
+			"description": "批量获取商户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "4f720e34-26eb-1b7a-4cf0-b0750417e4b6",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/auditmerchantbrand",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "106",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "通过",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandLicenseId",
+					"value": "22",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775334508,
+			"name": "/merchant/auditmerchantbrand",
+			"description": "审核商户品牌授权",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "4f8e1d65-3a0f-e585-7100-63f9adaf1e00",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/skuactive",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "112",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775066380,
+			"name": "Sku/SkuActive",
+			"description": "商品上架",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "51456f2a-cb5d-d8fc-7d79-e2b25f463d82",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/addthirdpartyorder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bcOrderId",
+					"value": "1111111",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderMark",
+					"value": "23,25,26",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775186041,
+			"name": "TradeOrder/AddThirdpartyOrder",
+			"description": "添加用户第三方订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "527ce3ea-0ad7-1932-65a2-130ff57976cc",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/getdeliverytemplate?merchantId=101&deptId=857",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775390578,
+			"name": "/merchant/getdeliverytemplate",
+			"description": "获取商户自定义模板",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "53b6f785-2847-3da3-dc6e-3833dc8e0604",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/updatesettlestatus",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "orderIds",
+					"value": "2147483648",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775313941,
+			"name": "/TradeOrder/UpdateSettleStatus",
+			"description": "更新订单对账状态",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "5533b6e4-38f5-bc89-4b67-e5f2d1d64e94",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/auditreward",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rewardId",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775449224,
+			"name": "/ump/auditreward",
+			"description": "审核活动",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "55727075-f6ac-2199-b9c2-6439f24e80bd",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantssearch?status=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775290348,
+			"name": "/Merchant/MerchantsSearch",
+			"description": "商户搜索",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "56edfb10-cbe7-6e04-5ef0-78806852ff35",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/suborderinfo?subOrderId=10016",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775493957,
+			"name": "/tradeorder/suborderinfo",
+			"description": "获取子订单信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "57101b17-401b-2812-0763-0266693b31fc",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/auditrefundpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "refundPaymentId",
+					"value": "10000015",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refuseReason",
+					"value": "xxx",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775339873,
+			"name": "tradeorder/auditrefundpayment",
+			"description": "提交退款单审核意见",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "575601fb-8025-7106-e61e-e774565a8f24",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/updateproduct",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "测试商品",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "thumbnail",
+					"value": "http://",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cateIds",
+					"value": "1,3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "packageType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detail",
+					"value": "{\"graphicDetail\":\"html\"}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "offlineBeforeExpired",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "producingArea",
+					"value": "上海",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "productId",
+					"value": "8",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775050716,
+			"name": "Product/UpdateProduct",
+			"description": "更新商品信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "58c20c48-2bf5-8b64-997a-267ce3b0306e",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productsearch?type=1&productIds=101,102&productName=橄榄",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775374795,
+			"name": "/product/productsearch",
+			"description": "搜索商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "58de2b28-39a3-d839-7787-896dbe4ee417",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/pushclientinfo?userId=1&clientId=12",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469776685051,
+			"name": "/user/pushclientinfo",
+			"description": "获取推送客户端信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "59bc11dd-83f1-9b4e-1944-8563f635e3ac",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/iteminfo?skuId=101",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":113,\"amount\":10}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775025997,
+			"name": "Sku/ItemInfo",
+			"description": "单品详情",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "5a20150b-f7a1-6356-b4dd-9a37cec46844",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/addsku",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "33",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "taste",
+					"value": "褐色",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "volume",
+					"value": "305g",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Julies 茱蒂丝 纯花生酱三明治饼干305g/包 马来西亚进口",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "3999",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "marketPrice",
+					"value": "5000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lowestPrice",
+					"value": "1000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiredDate",
+					"value": "2015-12-19",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "manufacturedDate",
+					"value": "2013-12-19",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "enabled",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pics",
+					"value": "http://baidu.com,http://baidu.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stock",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "batch",
+					"value": "1000",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774979869,
+			"name": "Sku/AddSku",
+			"description": "添加sku单品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "5d5aa275-763e-02f4-6095-e924237e9b6b",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/addproducttag",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "102",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tag",
+					"value": "皇室",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775480151,
+			"name": "/product/addproducttag",
+			"description": "添加商品标签",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "5d795ec0-375d-fa5a-f8a3-5fba38465bc8",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/settlerefundordersearch",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/tradeorder/settlerefundordersearch",
+			"description": "搜索对账退款单",
+			"descriptionFormat": "html",
+			"time": 1470641292944,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5ecfe11d-0fb4-a294-b65d-809ca9c34961",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/lessstockskus?merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775249652,
+			"name": "/Sku/LessStockSkus",
+			"description": "获取商户库存小于某个值的sku列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "5f2786a0-1cdd-d725-4438-5c3429d94aa8",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/likeproductlist?userId=16",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775240703,
+			"name": "/User/LikeProductList",
+			"description": "用户关注商品列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "5f7a4eae-a059-8b13-5de3-8cb99585ff15",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/createmutliorder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "10000014",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "{\"deliveryProvince\":\"\\u6d59\\u6c5f\\u7701\",\"deliveryCity\":\"\\u5609\\u5174\\u5e02\",\"deliveryDistrict\":\\\"\\u79c0\\u6d32\\u533a\\\",\\\"deliveryDetailAddress\\\":\"\\u4e2d\\u5c71\\u8def100\\u53f72\\u53f7\\u697c207\",\"consignee\":\"\\u5b50\\u753b\",\"consigneePhone\":\"17091915856\"}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "invoice",
+					"value": "{\"type\":1,\"title\":\"\"}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notes",
+					"value": "{\"1\":\"亲,你好\"}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "confirmOrderSerialId",
+					"value": "a6cf6de7c2adcd2bd80e6ba7e665693a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addressId",
+					"value": "10000181",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775151897,
+			"name": "TradeOrder/CreateMutliOrder",
+			"description": "批量创建订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "5fd040bd-180f-3447-4cea-8f644fc11bd3",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/createrefundpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderIds",
+					"value": "12,13",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paymentId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidMoney",
+					"value": "1600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidTime",
+					"value": "12000000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "needRefundMoney",
+					"value": "1600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundReason",
+					"value": "系统退款",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775222103,
+			"name": "TradeOrder/CreatereRundPayment",
+			"description": "创建退款单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "607eb682-ce7b-81fa-693e-9cc8fbd73133",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/refundorderlist?merchantId=110&status=2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775510014,
+			"name": "/merchant/refundorderlist",
+			"description": "退款订单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6094bbb3-f170-c43a-53d0-38b772bbfd24",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/deliverymessage?orderId=15",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775211360,
+			"name": "tradeorder/deliverymessage",
+			"description": "获取订单物流信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6249eaa7-0561-8395-fd82-5422a247e3a8",
+			"headers": "",
+			"url": "{{beta internalapi}}/common/sysconfig",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775365987,
+			"name": "/common/sysconfig",
+			"description": "获取系统配置",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6584b670-90cb-c5d1-4d9c-5942fd229914",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/gettmporder?userId=16&confirmOrderSerialId=12d81f69b49aaeb7e328009f7fd929e3",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "token",
+					"value": "fb930e094df88a426649fe4b26cda894",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":113,\"amount\":11,\"price\":2680},{\"skuId\":115,\"amount\":5,\"price\":2680}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775146378,
+			"name": "TradeOrder/GetTmpOrder",
+			"description": "获取临时订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "67dbe80a-7c8c-bb8b-b4b4-2f596ba0ec3d",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/deletespecialtopicsku",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "topicId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775412571,
+			"name": "ump/deletespecialtopicsku",
+			"description": "删除专题商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "691ddec4-2c98-3556-a573-2eb1575d0664",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/bindcoupon",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userIds",
+					"value": "10000001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "couponId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775362467,
+			"name": "/user/bindcoupon",
+			"description": "用户绑定优惠券",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "69d37e34-a96d-0bb7-37fc-6cb6b26df04b",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/deliverytemplates?addressId=10000031&merchantIds=102,101&type=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775368744,
+			"name": "/nation/deliverytemplates",
+			"description": "获取运费模板",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6d0d3bda-2f35-12d0-08a3-9f908c11a764",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/usersuborderlist?userId=16&type=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775200454,
+			"name": "TradeOrder/UserSubOrderList",
+			"description": "获取用户子订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6dbc988c-407f-235c-066b-694dc7173f9b",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addcoupon",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "rangeType",
+					"value": "MERCHANT",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "商户满减券",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subTitle",
+					"value": "商户满减券",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value",
+					"value": "500",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "quota",
+					"value": "10",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isAtLeast",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "atLeast",
+					"value": "10",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stock",
+					"value": "10",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "startAt",
+					"value": "1000000000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endAt",
+					"value": "9999999999",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "usageDesc",
+					"value": "xxxxxxxx",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isShare",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "duration",
+					"value": "500",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775446695,
+			"name": "/ump/addcoupon",
+			"description": "添加优惠券",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6de36daa-e237-a4be-c2cc-4a1941f9d571",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/couponsinfo?couponIds=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775356979,
+			"name": "/ump/couponsinfo",
+			"description": "批量获取优惠信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6de67570-b77f-4eab-6507-684994225e33",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/skulist?productId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775005189,
+			"name": "Product/SkuList",
+			"description": "获取商品sku列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "6e8544a6-791e-3872-2ddc-82f7f2257f7b",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/cityinfo?cityId=19",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774970391,
+			"name": "Nation/CityInfo",
+			"description": "获取城市信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "6ee635d6-82f3-3eec-d63e-3aefdcab956b",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/autofinishorder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775275717,
+			"name": "TradeOrder/AutoFinishOrder",
+			"description": "自动完成订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "6ff3e9ef-4c48-e72b-a287-417360db07cf",
+			"headers": "",
+			"url": "{{beta internalapi}}/banner/onlinebanners",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775023285,
+			"name": "Banner/OnlineBanner",
+			"description": "在线banner",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "7086c968-d87c-5973-0ac3-366668f7effe",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/bindpushclient",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clientId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469776682852,
+			"name": "/user/bindpushclient",
+			"description": "绑定推送设备",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "721b9b4a-40aa-e343-906a-9546e8362b6f",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/getdeliveryrange?merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775256069,
+			"name": "/Merchant/GetDeliveryRange",
+			"description": "获取商户配送范围",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "72ee7319-8e0b-7ee4-315d-ba0bb0ad11e1",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/refundorderauditrecords?refundOrderId=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775507004,
+			"name": "/tradeorder/refundorderauditrecords",
+			"description": "获取退单审核记录列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "74deeeb1-a9fd-c44d-34fc-6997da0135f2",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/simpleupdateproduct?productId=101&todayDiscount=99",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775381082,
+			"name": "/product/simpleupdateproduct",
+			"description": "更新商品信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "7572d542-e3f0-bb22-9b8c-6bae8d30f6f1",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addspecialtopicsku",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "topicId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuName",
+					"value": "单品名称",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuPic",
+					"value": "http://img.haoshiqi.net/img/a.jpg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuDesc",
+					"value": "单品简介",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775407113,
+			"name": "/ump/addspecialtopicsku",
+			"description": "添加专题商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "757773c8-400f-3eb1-9caa-93dc164a824a",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/unlikeproduct",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuIds",
+					"value": "122,120",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775203574,
+			"name": "User/UnLikeProduct",
+			"description": "取消收藏商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "75ba576d-9097-e844-aea5-d550b71222de",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/finishuserorder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "49e2c52fc2e1051c58e11daace64ab5f",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderId",
+					"value": "40",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775225352,
+			"name": "TradeOrder/FinishUserOrder",
+			"description": "完成订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "77041f30-bb28-67fc-662e-b30a7b11c724",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/couponlist?channel=App_Store&device=iPhone%206S&location=121.430549%2C31.160666&needPagination=1&net=WIFI&page=CouponViewController&pageNum=1&sheight=667&swidth=375&terminal=ios&timestamp=1461132238&token=a15f0eaa59d23190c97c116624d43de9&type=1&udid=0f0b666a099612eb648348ad0530a65a4ee8f179&userId=10000014&uuid=10000014&v=1.2.0&zoneId=857",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775428633,
+			"name": "/ump/specialtopicinfo",
+			"description": "获取专题信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "78d6ea71-f41b-d688-fa6e-e000bb5ab08e",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/login",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "18601652023",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "15868388608",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "wechatAccessToken",
+					"value": "OezXcEiiBSKSxW0eoylIeFKwZgQbxc4qKK_7_-7sTZxvqPKcsrDCJHBCTxnY7mzqPiJoXYLNG-qYtRAimpCmeuak4xtbVVGzgs_9OPdaw9hsEO-XVKRkoLxPvmjRIyWGil0O-HTHFIU-bI3HhPnVGw",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "wechatRefreshToken",
+					"value": "OezXcEiiBSKSxW0eoylIeFKwZgQbxc4qKK_7_-7sTZxvqPKcsrDCJHBCTxnY7mzqm_jEXpsoY6sSqLuLctXm4GxanUZLbkRlkRmYfZApEpfDVeA4paH3uxMeWeOcxHnYhkAFlwpVCg45I2vCqj6dhg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "wechatOpenId",
+					"value": "oNDT-jhbfE8qKliWA4v1HtKSln0Q",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "wechatUnionId",
+					"value": "o31Slju7w33cYScI_F_AzFG1kAu8",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "wechatTokenRefreshTime",
+					"value": "1234456778",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470636708403,
+			"name": "User/Login",
+			"description": "用户登录",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "79186de3-6bc1-6a20-29d5-fd03a3026627",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getrewardredeemrecord?userId=10000001&rewardCode=xxxxxxx",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775440618,
+			"name": "/user/getrewardredeemrecord",
+			"description": "获取用户活动兑换记录",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "7b95f8eb-6b98-88df-72f4-d5b99dce3923",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/updatemerchantqualification",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identityCardFront",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identityCardBack",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "copyOfBusinessLicense",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "organizationCodeCertificate",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "taxRegistrationCertificate",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "foodProductionLicense",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "alipayAuthorization",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775136618,
+			"name": "Merchant/UpdateMerchantQualification",
+			"description": "更新商户资质",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "7c847efa-d1dc-b72d-3949-4bb5ddeaff0e",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/auditmerchant",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "审核通过",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775331660,
+			"name": "/Merchant/AuditMerchant",
+			"description": "提交商户审核信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "7edd5de1-2312-e41d-6264-5285dce9d8cc",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantskulist?merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775143031,
+			"name": "Merchant/MerchantSkuList",
+			"description": "获取商户单品列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "80286d1b-8e12-e756-d93b-8b214f932741",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/register",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "13600000000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "C_WAY",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "avatar",
+					"value": "http://baidu.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "15868388608",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470636741795,
+			"name": "User/Register",
+			"description": "",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "8069ee32-fc19-c6ff-12eb-bd927cc60c8f",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/usersinfo?userIds=10000001,10000005",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470042746374,
+			"name": "/user/usersinfo",
+			"description": "批量获取用户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "80b34524-69f3-2561-3f3b-689d553faccd",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/getproducttags?productId=1&productId=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775477071,
+			"name": "/product/getproducttags",
+			"description": "获取商品标签",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "80be14d3-2e7d-f08e-3739-28a2c60866e2",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/skulist?merchantId=1&enabled=0",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775063388,
+			"name": "Merchant/SkuList",
+			"description": "获取商户宝贝列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "815fada2-046a-4f0b-cc20-4dc0e1d6995f",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/updateuser?userId=16&birthday=1999-02-08&avatar=sssssss&enabled&username=CWAY",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774985462,
+			"name": "User/UpdateUser",
+			"description": "更新用户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "840e6235-78c6-0874-086f-4ba0dc0cc6af",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/addtmporder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderInfo",
+					"value": "{\"a\":\"b\",\"cccccc\":\"ddddddd\"}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775127888,
+			"name": "TradeOrder/AddTmpOrder",
+			"description": "初始化订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "8551af0a-0b27-2076-bfa8-7d285fe637fd",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/availablecoupons?merchantId=101",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775472128,
+			"name": "/merchant/availablecoupons",
+			"description": "获取商家可用优惠券",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "8ac32157-87e2-6dea-1d3e-908adb423353",
+			"headers": "",
+			"url": "{{beta internalapi}}/ugc/ugclist?skuId=113",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775057676,
+			"name": "Ugc/UgcList",
+			"description": "获取单品评论列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "8acc8e9a-7543-3d31-424c-95abdb04fb3c",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/skustock?skuId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775020669,
+			"name": "Sku/SkuStock",
+			"description": "获取单品库存信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "8d344a18-2cd1-1949-22d0-e1eb8773528c",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/skupics?skuId=5",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775017918,
+			"name": "Sku/SkuPics",
+			"description": "获取单品图片列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "8d5a43ed-b474-6afa-a681-d3acfcb2f7b0",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getorderpayments?paymentIds=1000001,1000002",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775350443,
+			"name": "/tradeorder/getorderpayments",
+			"description": "批量获取支付单信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "8e54e874-4dee-2110-056b-a918a1fe81c8",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/onlinespecialtopic",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "topicId",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775431562,
+			"name": "/ump/onlinespecialtopic",
+			"description": "上线专题",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "8edb4e7a-4459-1945-f13d-bd49e1fcf8b2",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/deletespecialtopic",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "topicId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775420786,
+			"name": "/ump/deletespecialtopic",
+			"description": "删除专题",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "8ef08bd0-ec81-0439-2098-efc3a514adb3",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/paymerchantbill",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "billId",
+					"value": "37",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidTime",
+					"value": "11111",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidMoney",
+					"value": "11111",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775328508,
+			"name": "/Merchant/PayMerchantBill",
+			"description": "确认对账打款",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "8fe339ad-204e-e142-fca7-c14d3ebf509b",
+			"headers": "",
+			"url": "{{beta internalapi}}/coupon/couponoprcdlist?couponTitle=优惠券",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775463944,
+			"name": "/coupon/couponoprcdlist",
+			"description": "优惠券使用记录",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "90e45489-e560-ed1f-4d3b-e895613e143d",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/addmerchantinfo",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "来伊份",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logo",
+					"value": "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3005150014,4035941193&fm=96",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "来伊份成立于1999年，公司主营业务为休闲食品经营，产品覆盖炒货、蜜饯、肉制品等九大系列，达到700多种。2013年销售额超过30亿，全国员工人数近1万名[1]  。目前在上海、江苏、浙江等9个省、直辖市[2]  已拥有连锁直营专卖店超过2500多家，并获得”上海市著名商标”、”上海名牌产品”、”2010上海世博会特许产品零售商”等多项荣誉。",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "施永雷",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacterPhone",
+					"value": "13110110110",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "legalPerson",
+					"value": "施永雷",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "registrationAddress",
+					"value": "上海",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "registrationNumber",
+					"value": "9500195002",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contactAddress",
+					"value": "上海",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "postCode",
+					"value": "31200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "companyProperty",
+					"value": "传统零食行业",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "licenseStartTime",
+					"value": "1428208000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "licenseExpiredTime",
+					"value": "1488208000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "licenseBusinessRange",
+					"value": "零食百货",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "productSource",
+					"value": "自产",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "officalWebsite",
+					"value": "http://www.laiyifen.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacterPositions",
+					"value": "总监",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacterEmail",
+					"value": "shiyonglei@laiyifen.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bankAccount",
+					"value": "12312",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bankName",
+					"value": "工商银行",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "customerServiceTel",
+					"value": "123121",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "customerServiceWangwangAccount",
+					"value": "shiyonglei",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "companyName",
+					"value": "来伊份",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775100035,
+			"name": "Merchant/AddMerchantInfo",
+			"description": "添加商户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "953f5473-9dca-0b15-6b9f-cec608c1a59d",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/summarybillorderlist?merchantId=102&billStart=1451577600&billEnd=1453046400",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775298941,
+			"name": "/Merchant/SummaryBillOrderList",
+			"description": "获取账期内订单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "95abd14b-5ffa-a217-c5e2-0dbb37cd2194",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/itemsstock?skuIds=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774935039,
+			"name": "Sku/ItemsStock",
+			"description": "单品库存列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "96cb6c19-a806-e08b-8d96-b8ba523fe8cd",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/updatespecialtopicsku",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "topicId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuName",
+					"value": "单品名称2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuPic",
+					"value": "http://img.haoshiqi.net/img/a.jpg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuDesc",
+					"value": "单品简介2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775410098,
+			"name": "ump/updatespecialtopicsku",
+			"description": "更新专题单品信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "99ffa23a-bf38-0fb5-76a5-f97e5f30f17d",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantlist",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775295828,
+			"name": "Merchant/MerchantList",
+			"description": "获取全部商户列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "9a2d494e-7f56-720d-e024-d4f0fb4dde32",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/clearcart",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775087802,
+			"name": "user/clearcart",
+			"description": "清空购物车",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "9b89bdfb-3cf2-dd5c-a075-708c6a5941a0",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/couponinfo?couponId=3",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775452168,
+			"name": "/ump/couponinfo",
+			"description": "优惠券信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "9c0532c0-278e-2c82-c091-34a4476aa3b8",
+			"headers": "",
+			"url": "{{beta internalapi}}/ugc/ugcbrief?skuId=113",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775045172,
+			"name": "Ugc/UgcBrief",
+			"description": "简要评论信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "9d99bab0-3f5d-a32c-18bc-9cdef1b9f730",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/itemsattrs?skuIds=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774944968,
+			"name": "Sku/ItemsAttrs",
+			"description": "获取单品属性值列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "9f427ffb-3fea-dc43-89a0-fae02f69e803",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productlist",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774925111,
+			"name": "Product/ProductList",
+			"description": "商品列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "a08d0201-3ba2-d5f5-7755-9586903c01d3",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/rewardinfo?rewardCode=newuserinv",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775353628,
+			"name": "/ump/rewardinfo",
+			"description": "获取活动信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "a2349487-bd5e-9233-3f33-8a408aa4cc60",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productoffline",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775174592,
+			"name": "Product/ProductOffline",
+			"description": "商品下线",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "a266bdc3-c6a5-bb91-a089-95803db7a325",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/deletecartsku",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":113,\"amount\":10}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775090779,
+			"name": "User/DeleteCartSku",
+			"description": "清空购物车商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "a300cc20-8701-c60b-7101-b16419da295d",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/merchantorderlist?merchantId=101&status=7",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775337492,
+			"name": "tradeorder/merchantorderlist",
+			"description": "商户订单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "a303c342-1853-856b-d508-425a0bc38cca",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/paymentway",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775130498,
+			"name": "TradeOrder/PaymentWay",
+			"description": "获取支付方式",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "a59ea14f-594e-ae73-b350-1d5807f00873",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getthirdpartyorder?userId=12&orderMark=23,25,26",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "userId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bcOrderId",
+					"value": "1111111",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderMark",
+					"value": "23,25,26",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775188928,
+			"name": "TradeOrder/GetThirdpartyOrder",
+			"description": "获取用户第三方订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "a85e428b-c30c-3fd3-316e-79994579bea8",
+			"headers": "",
+			"url": "{{beta internalapi}}/attribute/attributesinfo?attrIds=1,2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774928454,
+			"name": "Attribute/AttributesInfo",
+			"description": "属性列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "ab8da6f9-4534-d318-3d85-83418011930f",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantsbill?merchantName=好食",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775293283,
+			"name": "/Merchant/Merchantsbill",
+			"description": "获取商户对账列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "abcbd093-d55f-bcfa-921d-9097798766f4",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/addaddress",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "provinceId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cityId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "districtId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "王小飘",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "15067243214",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detailAddress",
+					"value": "张江镇",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "province",
+					"value": "北京",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "北京",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "district",
+					"value": "朝阳区",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775034821,
+			"name": "Merchant/AddAddress",
+			"description": "添加商户收发货地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "abde5b33-9926-0498-bb54-5a06262a3874",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/skuinactive",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "113",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775069317,
+			"name": "Sku/SkuInActive",
+			"description": "商品下架",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "af9af7ad-9aa0-4892-9d54-7a0e8bc2d9c7",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/addmerchantbrandlicense",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandName",
+					"value": "品牌",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandLogo",
+					"value": "http;//",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiredTime",
+					"value": "11231231",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "license",
+					"value": "http://",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775158537,
+			"name": "Merchant/AddMerchantBrandLicense",
+			"description": "添加商户品牌授权书",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "b0650699-7b49-6da2-651e-974b23319147",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/citylist?provinceId=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774994966,
+			"name": "Nation/CityList",
+			"description": "获取城市列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "b0a879a7-510c-7b82-9fdb-97cdba2cacee",
+			"headers": "",
+			"url": "{{beta internalapi}}/coupon/couponredeem",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "code",
+					"value": "xxxxxxxxxx",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "b49b38e365b6888cb7da6fea5eacac9c",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775474519,
+			"name": "/coupon/couponredeem",
+			"description": "领取优惠券",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "b2be1898-ae93-e192-8ab0-2b60abd5870e",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/addthirdpartyuser",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bcUserId",
+					"value": "13",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775183064,
+			"name": "User/AddThirdpartyUser",
+			"description": "添加用户第三方帐号",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "b2d8b5ed-be2b-b6fb-4fd5-bfa926634c79",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/addskutocart",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "2820",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amount",
+					"value": "50",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "113",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775073315,
+			"name": "Sku/AddSkuToCart",
+			"description": "添加单品到购物车",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "b7b95a67-1a7c-36a9-fdd1-87a68f9dd862",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/deletemerchantbrandlicense",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "licenseId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775164891,
+			"name": "Merchant/DeleteMerchantBrandLicense",
+			"description": "删除商户品牌授权",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "b8bcec3a-26fb-d211-ea53-5c150487c680",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/subordersinfo?subOrderIds=10026",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775513110,
+			"name": "/tradeorder/subordersinfo",
+			"description": "批量获取子订单信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "b962a9fb-8fc0-f394-56b3-ea56b687563a",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getdefaultaddress?userId=16",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775118259,
+			"name": "User/GetDefaultAddress",
+			"description": "获取默认收货地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "b9c70ef0-c739-14fb-acd0-1006e0cc2c68",
+			"headers": "",
+			"url": "{{beta internalapi}}/attribute/attributeinfo?attrId=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774932272,
+			"name": "Attribute/AttributeInfo",
+			"description": "属性信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "bc0c86cc-d0a3-3bde-73bd-2675c815315d",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/updatemainsku",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mainSkuId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mainSkuPrice",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mainSkuPic",
+					"value": "http://hsq-img.image.alimmdn.com/merchantadmin/image20160107/maf4a0e0e010ed5705ebbd953901731e94",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775281828,
+			"name": "/Product/UpdateMainSku",
+			"description": "更新商品主sku信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "c02429a1-b825-9823-01cb-7cb8f929d910",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/rewardlist",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775455288,
+			"name": "/ump/rewardlist",
+			"description": "活动列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "c2ee7e9e-3fb1-9101-3ea1-9fd916ad123c",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/reduseusercartsku",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":512,\"amount\":10},{\"skuId\":831,\"amount\":5}]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "10005498",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775491149,
+			"name": "/user/reduseusercartsku",
+			"description": "减除购物车商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "c51c31f6-a94c-c552-52b0-55e267be1aa6",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/refundorderlist?status=2&type=1&userId=10000007&merchantId=102",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/tradeorder/refundorderlist",
+			"description": "获取退款列表",
+			"descriptionFormat": "html",
+			"time": 1470042901057,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c5b295e6-eb7c-7478-46e2-95f100344716",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/deletesku",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "74",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "batch",
+					"value": "1447948800",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stock",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Loacker",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "1200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "marketPrice",
+					"value": "22200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lowestPrice",
+					"value": "1100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiredDate",
+					"value": "2015-11-20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "manufacturedDate",
+					"value": "2015-11-19",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pics",
+					"value": "http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2dFVWgFXXXXXOXpXXXXXXXXXX_%21%21128453551%20%2838%29.jpg,http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2B489gFXXXXXJXXXXXXXXXXXX_%21%21128453551%20%2832%29.jpg,http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2haSWgFXXXXbFXXXXXXXXXXXX_%21%21128453551%20%2826%29.jpg,http://merchant.haoshiqi.dev/bundles/dwdmerchantadmin/vendors/jquery-fileupload/server/php/files/TB2L4J.gFXXXXXSXXXXXXXXXXXX_%21%21128453551%20%2822%29.jpg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detail",
+					"value": "{}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantItemCode",
+					"value": "code",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "taste",
+					"value": "xxxdf",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775032015,
+			"name": "Sku/DeleteSku",
+			"description": "删除单品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "c633e38f-df98-b29c-8988-98f51b371f41",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/mutlicheckdelivery?merchantIds=101,102&addressId=10000001",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "token",
+					"value": "d10623168d2fbeac925cd3e47897308e",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skusInfo",
+					"value": "[{\"skuId\":118,\"amount\":\"1\",\"price\":\"1500\"},{\"skuId\":108,\"amount\":\"2\",\"price\":\"7500\"}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775287789,
+			"name": "/Sku/MutliCheckDelivery",
+			"description": "批量判断sku是否符合配送范围",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "c651bb4f-0ebf-b047-dce3-8897a2fc3bf9",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getavaliablecouponlist?userId=10000001&skusInfo=[{\"skuId\":118,\"orderAmount\":\"5\",\"orderPrice\":\"2500\"},{\"skuId\":108,\"orderAmount\":\"100\",\"orderPrice\":\"7500\"}]",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775347874,
+			"name": "/tradeorder/getavaliablecouponlist",
+			"description": "获取订单可用优惠券列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "c8e88a9a-9699-e6ea-4399-feb3b5cc7e89",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/createmerchantbill",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "104",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "billStart",
+					"value": "1453046400",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "billEnd",
+					"value": "1453651200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "receiveMoney",
+					"value": "2459",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundMoney",
+					"value": "2459",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "receiveInfo",
+					"value": "a:1:{i:0;a:14:{s:2:\\\"id\\\";i:2147483889;s:7:\\\"user_id\\\";i:10000001;s:11:\\\"merchant_id\\\";i:104;s:12:\\\"market_price\\\";i:5600;s:9:\\\"pay_price\\\";i:2459;s:12:\\\"refund_money\\\";i:2459;s:14:\\\"discount_price\\\";i:0;s:11:\\\"total_price\\\";i:2459;s:12:\\\"total_amount\\\";i:1;s:14:\\\"need_pay_price\\\";i:2459;s:8:\\\"pay_time\\\";i:1453279444;s:12:\\\"confirm_time\\\";i:0;s:10:\\\"created_at\\\";i:1453279429;s:10:\\\"audit_time\\\";i:1453279465;}}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundInfo",
+					"value": "a:1:{i:0;a:14:{s:2:\\\"id\\\";i:2147483889;s:7:\\\"user_id\\\";i:10000001;s:11:\\\"merchant_id\\\";i:104;s:12:\\\"market_price\\\";i:5600;s:9:\\\"pay_price\\\";i:2459;s:12:\\\"refund_money\\\";i:2459;s:14:\\\"discount_price\\\";i:0;s:11:\\\"total_price\\\";i:2459;s:12:\\\"total_amount\\\";i:1;s:14:\\\"need_pay_price\\\";i:2459;s:8:\\\"pay_time\\\";i:1453279444;s:12:\\\"confirm_time\\\";i:0;s:10:\\\"created_at\\\";i:1453279429;s:10:\\\"audit_time\\\";i:1453279465;}}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775310740,
+			"name": "/Merchant/CreateMerchantBill",
+			"description": "创建商户对账单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "ca3c7642-d5c8-18a0-eb4a-d0b04d69508e",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productonline",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775171769,
+			"name": "Product/ProductOnline",
+			"description": "商品上线",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "ca4005fb-a867-df97-1f4b-d0a536c3445b",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/updateaddress",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "addressId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "provinceId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cityId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "districtId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "王小飘",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "15067243214",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detailAddress",
+					"value": "张江镇",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliveryType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isDefault",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "province",
+					"value": "北京市",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "北京市",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "district",
+					"value": "朝阳区",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774956903,
+			"name": "User/UpdateAddress",
+			"description": "添加用户地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "ca6b1d86-5150-d355-e85c-59212feb72f4",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productinfo?productId=101",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "mobile",
+					"value": "17091915859",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "verifyCode",
+					"value": "080307",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "853b8fe05525566f11474aea44dd5593",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "originMobile",
+					"value": "18601652023",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775011974,
+			"name": "Product/ProductInfo",
+			"description": "获取商品信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "cb301046-681b-4bc8-6873-f3b9ba18709b",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/updatemerchantbrandlicense",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "licenseId",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandName",
+					"value": "品牌",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "brandLogo",
+					"value": "http;//",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiredTime",
+					"value": "11231231222",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "license",
+					"value": "http://",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775161777,
+			"name": "Merchant/UpdateMerchantBrandLicense",
+			"description": "更新商户品牌授权书",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "cb904d6c-a07f-2489-c9ae-dd3c22d65773",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/auditrefundorder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "165",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "opUserId",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundOrderId",
+					"value": "52",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "拒绝",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775503559,
+			"name": "/merchant/auditrefundorder",
+			"description": "商户审核退款单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "cb96a437-6df3-2af4-5bb6-1ab1d92e3045",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/updaterefundpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "refundPaymentId",
+					"value": "10000009",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "余额不足",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775269373,
+			"name": "/TradeOrder/UpdateRefundPayment",
+			"description": "更新退款单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "cd1f9096-be2a-0f22-fbe3-77199c2caaf9",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/cancelorder",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "orderId",
+					"value": "24",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775155185,
+			"name": "TradeOrder/CancelOrder",
+			"description": "取消订单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "cdb7947d-92a9-e223-6ede-f9acea163a68",
+			"headers": "",
+			"url": "{{beta internalapi}}/product/productsinfo?productIds=101,103",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775109378,
+			"name": "Product/ProductsInfo",
+			"description": "批量获取商品信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "cf3b65f3-a6cf-0e69-2cd9-7465c48ad7a3",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/updateaddress",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "addressId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "provinceId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cityId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "districtId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "王小飘",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "15067243214",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detailAddress",
+					"value": "张江镇",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "province",
+					"value": "北京",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "北京",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "district",
+					"value": "朝阳区",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775037629,
+			"name": "Merchant/UpdateAddress",
+			"description": "更新商户地址",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "d55f69b2-da99-39d3-e2cd-42e6ee91dcd1",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getrefundpayment?type=3&status=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775266166,
+			"name": "/TradeOrder/GetRefundPayment",
+			"description": "获取退款单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "d591b12b-fa5b-b052-604e-0b22108b7cab",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/refundordersinfo?subOrderIds=12858",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775520551,
+			"name": "/tradeorder/refundordersinfo",
+			"description": "批量获取退款单信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "d8ea4fd3-bfb5-b943-38a8-ba0f74361b9d",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getusercouponcnt?userId=10000007&type=0",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775344818,
+			"name": "/user/getusercouponcnt",
+			"description": "获取用户优惠券数量",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "da0e4aff-e400-c69e-5805-685a67b7ee9d",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/finishpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "paymentId",
+					"value": "8",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidPrice",
+					"value": "1000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775197961,
+			"name": "TradeOrder/FinishPayment",
+			"description": "完成支付",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "da279f76-6d00-a5e0-22c8-8eff821aa66b",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/updatespecialtopic",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "主标题",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subTitle",
+					"value": "副标题",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "描述",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mainPic",
+					"value": "主图",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "startTime",
+					"value": "22222",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endTime",
+					"value": "22222",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "topicId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775417770,
+			"name": "ump/updatespecialtopic",
+			"description": "更新专题",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "dbd6bdb1-50ac-e8ba-1c21-e07759aba758",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getusercouponlist?userId=101&type=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775342235,
+			"name": "/user/getusercouponlist",
+			"description": "获取用户优惠券列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "de721880-705a-1608-c647-6f69d268e452",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/getusercartsku?userId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775082202,
+			"name": "User/GetUserCartSku",
+			"description": "获取用户购物车商品",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "de815a5c-0a1f-3031-a137-307ccb62625b",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/merchantbillext?billId=23",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775319196,
+			"name": "/Merchant/MerchantBillExt",
+			"description": "获取对账单详情",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "dea4d888-63ce-e3fa-95f1-f7fad662b646",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/userorderlist?userId=16&status=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "token",
+					"value": "49e2c52fc2e1051c58e11daace64ab5f",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderIds",
+					"value": "48",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775216728,
+			"name": "TradeOrder/UserOrderList",
+			"description": "获取用户订单列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "deae74c9-9eea-9641-c49c-0a0171a2db06",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/userinfo?userId=10000190",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774921225,
+			"name": "User/UserInfo",
+			"description": "用户信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "dec42644-fde2-13c5-0040-40e27cf8225c",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/settlerefundorderlist?billId=1483",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/tradeorder/settlerefundorderlist",
+			"description": "获取退款账单列表",
+			"descriptionFormat": "html",
+			"time": 1470641207762,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e1244fc5-e931-ae32-d32f-717327d8d638",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getorderext?orderId=2147483679",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775302045,
+			"name": "/TradeOrder/GetOrderExt",
+			"description": "获取订单扩展信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "e29d2744-30e1-3dc9-1ffe-778106930da3",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/adddeliveryrange",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "provinceIds",
+					"value": "1,2,3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775253038,
+			"name": "/Merchant/AddDeliveryRange",
+			"description": "添加商户配送范围",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "e2e0e121-950d-b24b-e999-aa24ef4fcd6b",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/likeproductcnt?userId=16",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775246399,
+			"name": "/User/LikeProductCnt",
+			"description": "获取收藏商品数",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "e36a7011-063b-25f6-d33b-eba56a9aefcb",
+			"headers": "",
+			"url": "{{beta internalapi}}/nation/provinceinfo?provinceId=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774967783,
+			"name": "Nation/ProvinceInfo",
+			"description": "获取省份信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "e5decaf2-6a8f-5ccb-a456-13d7f01510b7",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/addrewardredeemrecord",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "1000001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rewardId",
+					"value": "10001",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rewardCode",
+					"value": "xxxxxxx",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "note",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "res",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775443809,
+			"name": "/user/addrewardredeemrecord",
+			"description": "添加活动兑换记录",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "e762122d-7f7b-507c-409b-b7ef63817f90",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/addmerchantqualification",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identityCardFront",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identityCardBack",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "copyOfBusinessLicense",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "organizationCodeCertificate",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "taxRegistrationCertificate",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "foodProductionLicense",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "alipayAuthorization",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775133178,
+			"name": "Merchant/AddMerchantQualification",
+			"description": "添加商户资质",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "e7bb6467-d390-a7cb-3d58-1b80bc47009f",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/brandlist?merchantId=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774961478,
+			"name": "Merchant/Brandlist",
+			"description": "获取商户品牌列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "ec42c852-8620-0b6d-06e0-37495340a672",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/updatedeliverytemplate",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deptId",
+					"value": "857",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dept",
+					"value": "上海市",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "templateInfo",
+					"value": "[ { \"dest\":\"上海市\",    \"destId\":857,    \"basePrice\":2000,     \"extraUnitPrice\":0 } ]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "templateId",
+					"value": "22",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775387344,
+			"name": "/merchant/updatedeliverytemplate",
+			"description": "更新商户自定义运费模板",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "ecfe5805-58d4-5555-b09c-dd29516536b8",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/checkdelivery?skuId=109&provinceId=857",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775278454,
+			"name": "/Sku/CheckDelivery",
+			"description": "检测单品是否符合配送范围",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "ede9d317-ad99-80d7-dd91-8d5ad738a8c0",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/createrefundpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderIds",
+					"value": "12,13",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paymentId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidMoney",
+					"value": "1600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paidTime",
+					"value": "12000000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "needRefundMoney",
+					"value": "1600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundReason",
+					"value": "系统退款",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775263479,
+			"name": "/TradeOrder/CreateRefundPayment",
+			"description": "创建退款单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "efb5e06d-43c7-f29b-c557-4c848b62ab2b",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/getorders?orderIds=23&userId=16",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775180408,
+			"name": "TradeOrder/GetOrders",
+			"description": "批量获取订单信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "f05b2380-af88-2839-1170-2aa793824206",
+			"headers": "",
+			"url": "{{beta internalapi}}/user/skuboughtcnt?userId=10000005&skuId=1111&duration=1111",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/user/skuboughtcnt",
+			"description": "获取用户历史单品购买数量",
+			"descriptionFormat": "html",
+			"time": 1470635622268,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f0da661c-4f72-fc8b-557a-87bd13a98c16",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/orderdetail?orderId=44",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775219313,
+			"name": "TradeOrder/OrderDetail",
+			"description": "订单详情",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "f2a8ce4f-3760-5fff-d3d7-c2b98acf4cb1",
+			"headers": "",
+			"url": "{{beta internalapi}}/merchant/adddeliverytemplate",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deptId",
+					"value": "857",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dept",
+					"value": "上海市",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "templateName",
+					"value": "商户运费模板",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "templateInfo",
+					"value": "[ { \"dest\":\"上海市\",    \"destId\":857,    \"basePrice\":500,     \"extraUnitPrice\":0 } ]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775384162,
+			"name": "/merchant/adddeliverytemplate",
+			"description": "添加商户自定义运费模板",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "f3189758-f34a-4289-0dc8-dc018b1df247",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/createorderpayment",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderIds",
+					"value": "23,25",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "needPayPrice",
+					"value": "1000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tradeNumber",
+					"value": "asfdfdsfwefasefsdfdsf",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paymentMethod",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isUnionPay",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "thirdPartyNo",
+					"value": "afdssddfdfsdfd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775191841,
+			"name": "TradeOrder/CreateOrderPayment",
+			"description": "创建支付单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "f54e79c1-1fbd-1e5f-ea44-3e280b632979",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/itemsdetailinfo?skuIds=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774940952,
+			"name": "Sku/ItemsDetailInfo",
+			"description": "单品详情列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "f9ac305b-8d9f-4808-a0e9-ee34f4387615",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/createrefundorder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "subOrderId",
+					"value": "10087",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "auditType",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundReason",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundReasonDetail",
+					"value": "老板不发货",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refundPics",
+					"value": "[{\"pic\":111.jpg},{\"pic\":108.jpg}]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "10000009",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775499948,
+			"name": "/tradeorder/createrefundorder",
+			"description": "创建退款单",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "fa0b072f-824c-c19d-a8d8-9efa61b677d4",
+			"headers": "",
+			"url": "{{beta internalapi}}/category/categorylist?type=0",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774948447,
+			"name": "Category/CategoryList",
+			"description": "分类列表",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "fc357806-6b66-4c75-fef3-2d8577dfbfc2",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/updateskustock",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "133",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stockCnt",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775112258,
+			"name": "Sku/UpdateSkuStock",
+			"description": "更新用户购物车库存",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "fdd4a9eb-3bbc-1a23-f480-e0158b911815",
+			"headers": "",
+			"url": "{{beta internalapi}}/tradeorder/refundorderinfo?subOrderId=11990",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469775497127,
+			"name": "/tradeorder/refundorderinfo",
+			"description": "退款单信息",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"responses": []
+		},
+		{
+			"id": "fec8588b-a1e1-b50e-ffdc-f746e8fb4723",
+			"headers": "",
+			"url": "{{beta internalapi}}/feedback/addfeedback?userId=1&contect=abc&contacter=123",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469774951327,
+			"name": "Feedback/AddFeedback",
+			"description": "添加用户反馈",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		}
+	]
+}

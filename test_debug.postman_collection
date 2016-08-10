@@ -1,0 +1,34 @@
+{
+	"id": "f7a71281-e047-0210-d49c-fd6a415ba4a1",
+	"name": "test_debug",
+	"description": "一个debug测试接口集合",
+	"order": [
+		"ab168948-9744-5c46-2eb9-1efdb2c9943c"
+	],
+	"folders": [],
+	"timestamp": 1468310954923,
+	"owner": "278877",
+	"remoteLink": "",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "ab168948-9744-5c46-2eb9-1efdb2c9943c",
+			"headers": "",
+			"url": "{{dev openapi}}/common/initconfig",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1468312264259,
+			"name": "Common/InitConfig",
+			"description": "初始化配置",
+			"collectionId": "f7a71281-e047-0210-d49c-fd6a415ba4a1",
+			"responses": []
+		}
+	]
+}
