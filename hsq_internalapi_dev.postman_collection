@@ -206,7 +206,11 @@
 		"cfa825ec-3693-023b-64b0-414330a7cba6",
 		"5867c901-122b-5cb6-98b3-9860eb1d48ea",
 		"4a596ee6-cc92-6dd1-10e2-55b34b24a993",
-		"bb5269f0-500e-b90f-a600-26b8f870bf5b"
+		"bb5269f0-500e-b90f-a600-26b8f870bf5b",
+		"2c2eb184-42f6-347e-dbc2-612201ebeb67",
+		"dd14a866-cf9b-a75f-4bbd-1cd167fff0f5",
+		"cab73cb7-c860-fff1-6876-4d1072a68719",
+		"1bc3471c-fdd0-7426-8302-10d09ee95d15"
 	],
 	"folders": [],
 	"timestamp": 1469771497888,
@@ -749,6 +753,26 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "1bc3471c-fdd0-7426-8302-10d09ee95d15",
+			"headers": "",
+			"url": "{{dev internalapi}}/common/indexmodulelist?loc=1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/common/indexmodulelist",
+			"description": "根据loc获取固定推广位列表",
+			"descriptionFormat": "html",
+			"time": 1470996525385,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "1c1adc2a-5143-6063-a40d-902d9c0190a3",
 			"headers": "",
 			"url": "{{dev internalapi}}/user/suborderscnt?userId=&type=1",
@@ -1157,6 +1181,63 @@
 			"description": "获取商户物流待处理订单",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "2c2eb184-42f6-347e-dbc2-612201ebeb67",
+			"headers": "",
+			"url": "{{dev internalapi}}/common/addindexmodule",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "type",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "icon",
+					"value": " http://img.haoshiqi.net/img/jxrm0726.jpg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "loc",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jumpType",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jumpUrl",
+					"value": "haoshiqi://com.doweidu/category?categoryName=休闲零食%26categoryId=1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiredTime",
+					"value": "2147483647",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/common/addindexmodule",
+			"description": "添加首页模块",
+			"descriptionFormat": "html",
+			"time": 1470996072689,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "2c9e3b4a-293d-082a-ace3-98d00aa1dbe7",
@@ -5341,6 +5422,26 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "cab73cb7-c860-fff1-6876-4d1072a68719",
+			"headers": "",
+			"url": "{{dev internalapi}}/common/getindexmoduleinfo?indexModuleId=2",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/common/getindexmoduleinfo",
+			"description": "根据ID获取首页模块信息",
+			"descriptionFormat": "html",
+			"time": 1470996463876,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "cd91c552-734f-a573-77bf-0a3a3c375cf9",
 			"headers": "",
 			"url": "{{dev internalapi}}/user/getusercouponlist?userId=101&type=1",
@@ -5854,6 +5955,26 @@
 			"name": "TradeOrder/CreateOrderPayment",
 			"description": "创建支付单",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "dd14a866-cf9b-a75f-4bbd-1cd167fff0f5",
+			"headers": "",
+			"url": "{{dev internalapi}}/common/updateindexmodule?loc=5&indexModuleId=34",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/common/updateindexmodule",
+			"description": "更新首页模块",
+			"descriptionFormat": "html",
+			"time": 1470996153492,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "dd64595f-8530-1e51-222c-a6b650d5ce60",
