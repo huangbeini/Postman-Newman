@@ -203,7 +203,10 @@
 		"241146a2-7993-ef12-d2e2-90505c148036",
 		"d6d578e1-79ae-ef29-ac3f-0abe2a14f449",
 		"2cc7e747-b9fd-c749-6fbb-57c825c46c97",
-		"cfa825ec-3693-023b-64b0-414330a7cba6"
+		"cfa825ec-3693-023b-64b0-414330a7cba6",
+		"5867c901-122b-5cb6-98b3-9860eb1d48ea",
+		"4a596ee6-cc92-6dd1-10e2-55b34b24a993",
+		"bb5269f0-500e-b90f-a600-26b8f870bf5b"
 	],
 	"folders": [],
 	"timestamp": 1469771497888,
@@ -2194,6 +2197,26 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "4a596ee6-cc92-6dd1-10e2-55b34b24a993",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/addmarketingactivity",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/addmarketingactivity",
+			"description": "添加档期营销活动",
+			"descriptionFormat": "html",
+			"time": 1470969899480,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "4b80be59-f84a-c370-8140-a7bbb2145fb8",
 			"headers": "",
 			"url": "{{dev internalapi}}/user/setdefaultaddress",
@@ -2402,6 +2425,26 @@
 			"description": "获取用户订单列表",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "5867c901-122b-5cb6-98b3-9860eb1d48ea",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/getmarketingactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/getmarketingactivities",
+			"description": "获取市场活动列表",
+			"descriptionFormat": "html",
+			"time": 1470969819851,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "5881ce49-cc68-df1d-9de2-2d9b0a510fae",
@@ -4730,6 +4773,26 @@
 			"description": "批量判断sku是否符合配送范围",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "bb5269f0-500e-b90f-a600-26b8f870bf5b",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/updatemarketingactivity",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/updatemarketingactivity",
+			"description": "更新档期活动信息",
+			"descriptionFormat": "html",
+			"time": 1470970015829,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "bcedb9a0-03a9-b503-95ea-455eae68f8dd",

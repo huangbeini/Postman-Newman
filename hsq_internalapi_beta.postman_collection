@@ -203,7 +203,10 @@
 		"26f419b7-8ccb-32c8-1391-14ac25fabd0c",
 		"18a4dbe9-32f3-4eb7-4da4-7fd5ae69ab61",
 		"dec42644-fde2-13c5-0040-40e27cf8225c",
-		"5d795ec0-375d-fa5a-f8a3-5fba38465bc8"
+		"5d795ec0-375d-fa5a-f8a3-5fba38465bc8",
+		"8d08ba88-9a33-d42e-21ae-80e5d93ba3ff",
+		"d321588f-8f33-a94a-2bc3-9f0858f0a35d",
+		"3c4ec71c-d820-6247-2ab4-e845e39f1ee9"
 	],
 	"folders": [],
 	"timestamp": 1469774768300,
@@ -1821,6 +1824,26 @@
 			"description": "获取专题列表",
 			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
 			"responses": []
+		},
+		{
+			"id": "3c4ec71c-d820-6247-2ab4-e845e39f1ee9",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/updatemarketingactivity",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/updatemarketingactivity",
+			"description": "更新档期活动信息",
+			"descriptionFormat": "html",
+			"time": 1470970031698,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "41517e14-9b3b-a416-152b-eccc2681bd4e",
@@ -3994,6 +4017,26 @@
 			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
 		},
 		{
+			"id": "8d08ba88-9a33-d42e-21ae-80e5d93ba3ff",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/getmarketingactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/getmarketingactivities",
+			"description": "获取市场活动列表",
+			"descriptionFormat": "html",
+			"time": 1470969841354,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "8d344a18-2cd1-1949-22d0-e1eb8773528c",
 			"headers": "",
 			"url": "{{beta internalapi}}/sku/skupics?skuId=5",
@@ -5784,6 +5827,26 @@
 			"name": "Merchant/UpdateAddress",
 			"description": "更新商户地址",
 			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "d321588f-8f33-a94a-2bc3-9f0858f0a35d",
+			"headers": "",
+			"url": "{{beta internalapi}}/ump/addmarketingactivity",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/addmarketingactivity",
+			"description": "添加档期营销活动",
+			"descriptionFormat": "html",
+			"time": 1470969910510,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "d55f69b2-da99-39d3-e2cd-42e6ee91dcd1",
