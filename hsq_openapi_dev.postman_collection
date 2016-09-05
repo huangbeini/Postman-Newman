@@ -1393,7 +1393,7 @@
 		{
 			"id": "85865124-2c24-1cba-5254-75f5ff200b64",
 			"headers": "",
-			"url": "{{dev openapi}}/product/iteminfo?productId=367&skuId=389&token=fb930e094df88a426649fe4b26cda894&net=2g&v=1.4.0",
+			"url": "{{dev openapi}}/product/iteminfo?productId=334&skuId=343&token=fb930e094df88a426649fe4b26cda894&net=2g&v=1.7.0",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1422,7 +1422,7 @@
 			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469772978816,
+			"time": 1471502844850,
 			"name": "Product/ItemInfo",
 			"description": "单品详情",
 			"collectionId": "9c298774-091b-7508-efa2-65ab87b350ed"

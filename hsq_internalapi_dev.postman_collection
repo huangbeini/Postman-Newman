@@ -210,7 +210,12 @@
 		"2c2eb184-42f6-347e-dbc2-612201ebeb67",
 		"dd14a866-cf9b-a75f-4bbd-1cd167fff0f5",
 		"cab73cb7-c860-fff1-6876-4d1072a68719",
-		"1bc3471c-fdd0-7426-8302-10d09ee95d15"
+		"1bc3471c-fdd0-7426-8302-10d09ee95d15",
+		"59b4f41a-02fc-6c42-2e31-bf22965538bc",
+		"50e1e397-23cb-e383-d154-c21fe815a114",
+		"0cb4317e-d72c-e4a0-9c52-addc5a86f9fd",
+		"2a0b420e-a4dd-d67f-f95a-10f1e97467e0",
+		"4a791ef4-5307-0e21-2cd5-e87c415f21ab"
 	],
 	"folders": [],
 	"timestamp": 1469771497888,
@@ -553,6 +558,33 @@
 			"name": "User/GetThirdpartyUser",
 			"description": "获取用户第三方帐号",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "0cb4317e-d72c-e4a0-9c52-addc5a86f9fd",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/onlinecustomspecialtopic",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "topicId",
+					"value": "38",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/ump/onlinecustomspecialtopic",
+			"description": "上线自定义专题",
+			"descriptionFormat": "html",
+			"time": 1471937005867,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "0d5f1229-5b57-c627-bc45-681159f8ca80",
@@ -1181,6 +1213,26 @@
 			"description": "获取商户物流待处理订单",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "2a0b420e-a4dd-d67f-f95a-10f1e97467e0",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/rewardredeemcodeinfo?rewardCode=cde1111111111",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/rewardredeemcodeinfo",
+			"description": "获取唯一码信息",
+			"descriptionFormat": "html",
+			"time": 1472796353288,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "2c2eb184-42f6-347e-dbc2-612201ebeb67",
@@ -2298,6 +2350,26 @@
 			"helperAttributes": {}
 		},
 		{
+			"id": "4a791ef4-5307-0e21-2cd5-e87c415f21ab",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/rewardredeemcodelist?rewardId=113",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/rewardredeemcodelist",
+			"description": "获取唯一码列表",
+			"descriptionFormat": "html",
+			"time": 1472796574800,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "4b80be59-f84a-c370-8140-a7bbb2145fb8",
 			"headers": "",
 			"url": "{{dev internalapi}}/user/setdefaultaddress",
@@ -2449,6 +2521,45 @@
 			"description": "商户提交审核",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "50e1e397-23cb-e383-d154-c21fe815a114",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/addcustomspecialtopic",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "title",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detail",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "channel",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/ump/addcustomspecialtopic",
+			"description": "新增自定义专题",
+			"descriptionFormat": "html",
+			"time": 1471936926254,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "51cf5899-b7c0-8fff-7e6e-67563b2a6563",
@@ -2610,6 +2721,25 @@
 			"name": "Merchant/AddMerchantQualification",
 			"description": "添加商户资质",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "59b4f41a-02fc-6c42-2e31-bf22965538bc",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/updatecustomspecialtopic?topicId=37&title=testUpdate&detail=edit",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471936860568,
+			"name": "/ump/updatecustomspecialtopic",
+			"description": "更新自定义专题",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"responses": []
 		},
 		{
 			"id": "59e31857-3041-325e-5f71-1c02be355d28",
