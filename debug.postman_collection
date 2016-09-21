@@ -1,34 +1,35 @@
 {
-	"id": "f7a71281-e047-0210-d49c-fd6a415ba4a1",
-	"name": "test_debug",
-	"description": "一个debug测试接口集合",
+	"id": "93bac800-6530-86f9-6f71-105a749421c6",
+	"name": "debug",
+	"description": "调试集合",
 	"order": [
-		"ab168948-9744-5c46-2eb9-1efdb2c9943c"
+		"0156baea-cad4-1b1a-e06a-a6e6d15821e4"
 	],
 	"folders": [],
-	"timestamp": 1468310954923,
+	"timestamp": 1470650456222,
 	"owner": "278877",
-	"remoteLink": "",
 	"public": false,
 	"published": false,
 	"requests": [
 		{
-			"id": "ab168948-9744-5c46-2eb9-1efdb2c9943c",
+			"id": "0156baea-cad4-1b1a-e06a-a6e6d15821e4",
 			"headers": "",
-			"url": "{{dev openapi}}/common/initconfig",
-			"preRequestScript": "",
+			"url": "{{dev openapi}}/product/productlist",
 			"pathVariables": {},
+			"preRequestScript": "",
 			"method": "GET",
+			"collectionId": "93bac800-6530-86f9-6f71-105a749421c6",
 			"data": [],
 			"dataMode": "params",
+			"name": "Product/ProductList",
+			"description": "商品列表",
+			"descriptionFormat": "html",
+			"time": 1470650467112,
+			"version": 2,
+			"responses": [],
 			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1468312264259,
-			"name": "Common/InitConfig",
-			"description": "初始化配置",
-			"collectionId": "f7a71281-e047-0210-d49c-fd6a415ba4a1",
-			"responses": []
+			"helperAttributes": {}
 		}
 	]
 }
