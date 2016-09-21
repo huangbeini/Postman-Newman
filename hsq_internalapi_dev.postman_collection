@@ -215,12 +215,21 @@
 		"50e1e397-23cb-e383-d154-c21fe815a114",
 		"0cb4317e-d72c-e4a0-9c52-addc5a86f9fd",
 		"2a0b420e-a4dd-d67f-f95a-10f1e97467e0",
-		"4a791ef4-5307-0e21-2cd5-e87c415f21ab"
+		"4a791ef4-5307-0e21-2cd5-e87c415f21ab",
+		"0678ef87-5534-084b-fe15-807d0e0163ab",
+		"8dfa2021-3a80-f7a7-4886-26069facceb5",
+		"e6972c31-7a50-3623-3ad8-2badee4b7a89",
+		"3c1a8f76-6435-d96e-5017-ed5f1682113d",
+		"d3dad759-9045-ea4d-ea0b-5da05d891f57",
+		"22da1e5f-112a-5bfd-a880-4fb537e9e243",
+		"8a69d95c-01c2-e143-939c-0c9238efe841",
+		"94c64d23-4915-dae4-cc9c-f51f38519f9e",
+		"3431b07d-9407-6f66-0e87-f60822dfbd1f",
+		"bc9b7f7d-ef68-40ff-503a-2cda51749c2a"
 	],
 	"folders": [],
 	"timestamp": 1469771497888,
 	"owner": "278877",
-	"remoteLink": "",
 	"public": false,
 	"published": false,
 	"requests": [
@@ -403,6 +412,26 @@
 			"name": "user/clearcart",
 			"description": "清空购物车",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "0678ef87-5534-084b-fe15-807d0e0163ab",
+			"headers": "",
+			"url": "{{dev internalapi}}/merchant/merchantnoticeinfo?merchantId=102",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/merchant/merchantnoticeinfo",
+			"description": "获取商户公告",
+			"descriptionFormat": "html",
+			"time": 1474448259690,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "0741858e-5a8a-b0d7-335d-8e2547d4e036",
@@ -969,6 +998,33 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "22da1e5f-112a-5bfd-a880-4fb537e9e243",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/onlinepinactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "pinActivitiesId",
+					"value": "14",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/ump/onlinepinactivities",
+			"description": "上线拼团活动",
+			"descriptionFormat": "html",
+			"time": 1474448740435,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "241146a2-7993-ef12-d2e2-90505c148036",
 			"headers": "",
 			"url": "{{dev internalapi}}/user/skusboughtcnt?userId=100000005&skuIds=1111&duration=1111",
@@ -1468,6 +1524,26 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "3431b07d-9407-6f66-0e87-f60822dfbd1f",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/auditpinactivitieslist?merchantName=朗麦&auditStatus=2",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/auditpinactivitieslist",
+			"description": "拼团审核列表",
+			"descriptionFormat": "html",
+			"time": 1474448951317,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "347c16e3-02e0-7cd7-c5c3-83b8bbc5fb24",
 			"headers": "",
 			"url": "{{dev internalapi}}/product/productDetail?productId=60",
@@ -1741,6 +1817,26 @@
 			"name": "Nation/CityList",
 			"description": "获取城市列表",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "3c1a8f76-6435-d96e-5017-ed5f1682113d",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/pinactivitieslist?merchantId=102&status=1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/pinactivitieslist",
+			"description": "获取拼团活动列表",
+			"descriptionFormat": "html",
+			"time": 1474448634665,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "3c854b48-4c0e-3d7a-64a6-31344769c81a",
@@ -3685,6 +3781,33 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "8a69d95c-01c2-e143-939c-0c9238efe841",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/offlinepinactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "pinActivitiesId",
+					"value": "6",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/ump/offlinepinactivities",
+			"description": "下线拼团活动",
+			"descriptionFormat": "html",
+			"time": 1474448796900,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "8b2cc627-885c-0c18-0ddd-78f904fc8dfa",
 			"headers": "",
 			"url": "{{dev internalapi}}/merchant/skulist?merchantId=1&enabled=0",
@@ -3717,6 +3840,39 @@
 			"name": "Sku/ItemsInfo",
 			"description": "单品基本信息列表",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "8dfa2021-3a80-f7a7-4886-26069facceb5",
+			"headers": "",
+			"url": "{{dev internalapi}}/merchant/updatemerchantnotice",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "merchantId",
+					"value": "102",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notice",
+					"value": "公告",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/merchant/updatemerchantnotice",
+			"description": "更新商户公告",
+			"descriptionFormat": "html",
+			"time": 1474448362022,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "8eb942ab-f66b-1176-2152-9c14c0d70176",
@@ -4025,6 +4181,51 @@
 			"name": "Merchant/UpdateAddress",
 			"description": "更新商户地址",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "94c64d23-4915-dae4-cc9c-f51f38519f9e",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/auditpinactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "pinActivitiesId",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "10000338",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/ump/auditpinactivities",
+			"description": "拼团活动审核",
+			"descriptionFormat": "html",
+			"time": 1474448847057,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "95c2f921-7e0b-685a-d64c-0d93c73ff31b",
@@ -5006,6 +5207,26 @@
 			"helperAttributes": {}
 		},
 		{
+			"id": "bc9b7f7d-ef68-40ff-503a-2cda51749c2a",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/pinactivitiesauditinfo?pinActivitiesId=14&auditStatus=3",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/pinactivitiesauditinfo",
+			"description": "获取拼团活动审核信息",
+			"descriptionFormat": "html",
+			"time": 1474449014035,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "bcedb9a0-03a9-b503-95ea-455eae68f8dd",
 			"headers": "",
 			"url": "{{dev internalapi}}/tradeorder/getrefundpayment?type=3&status=1",
@@ -5815,6 +6036,75 @@
 			"responses": []
 		},
 		{
+			"id": "d3dad759-9045-ea4d-ea0b-5da05d891f57",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/updatepinactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "pinActivitiesId",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "修改",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "102",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "groupPrice",
+					"value": "800",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "singlePrice",
+					"value": "1000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "startTime",
+					"value": "pinActivitiesId",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endTime",
+					"value": "1481472000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/ump/updatepinactivities",
+			"description": "更新拼团活动信息",
+			"descriptionFormat": "html",
+			"time": 1474448692276,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "d443c24e-bd84-eb30-dccd-9a7a23cece7a",
 			"headers": "",
 			"url": "{{dev internalapi}}/tradeorder/deliverymessage?orderId=15",
@@ -6334,6 +6624,69 @@
 			"name": "Product/ProductOffline",
 			"description": "商品下线",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "e6972c31-7a50-3623-3ad8-2badee4b7a89",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/addpinactivities",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "title",
+					"value": "活动测试",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "4203",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "groupPrice",
+					"value": "1000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "singlePrice",
+					"value": "900",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "startTime",
+					"value": "1474041600",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endTime",
+					"value": "1481472000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "merchantId",
+					"value": "102",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "ump/addpinactivities",
+			"description": "添加拼团活动 ",
+			"descriptionFormat": "html",
+			"time": 1474448521017,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "e7d39fee-0d41-465a-f00f-b4c2c1221975",

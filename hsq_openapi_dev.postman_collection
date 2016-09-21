@@ -58,12 +58,13 @@
 		"d0593df4-60ab-8bb5-e4b9-7ec76e1442ce",
 		"77f5a359-d876-4c55-ff01-bd7761f20cb0",
 		"cfce896a-2834-4515-07eb-df50b20c048c",
-		"e96971b2-af84-5670-cb26-b76f22064c72"
+		"e96971b2-af84-5670-cb26-b76f22064c72",
+		"19b5d050-b92f-6087-c1db-7d4340d64ed2",
+		"0de51a36-f2ae-a006-9cd4-5eb099ab0025"
 	],
 	"folders": [],
 	"timestamp": 1469771503996,
 	"owner": "278877",
-	"remoteLink": "",
 	"public": false,
 	"published": false,
 	"requests": [
@@ -225,6 +226,84 @@
 			"description": "待评论列表",
 			"collectionId": "9c298774-091b-7508-efa2-65ab87b350ed",
 			"responses": []
+		},
+		{
+			"id": "0de51a36-f2ae-a006-9cd4-5eb099ab0025",
+			"headers": "",
+			"url": "{{dev openapi}}/product/coupleskudetail?net=2g&v=1.6.0&pinActivitiesId=5",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "9c298774-091b-7508-efa2-65ab87b350ed",
+			"data": [
+				{
+					"key": "refundPaymentId",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "余额不足",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Product/coupleskudetail",
+			"description": "二人购单品详情",
+			"descriptionFormat": "html",
+			"time": 1474449484125,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "19b5d050-b92f-6087-c1db-7d4340d64ed2",
+			"headers": "",
+			"url": "{{dev openapi}}/product/coupleskulist?zoneId=875",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "9c298774-091b-7508-efa2-65ab87b350ed",
+			"data": [
+				{
+					"key": "refundPaymentId",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "note",
+					"value": "余额不足",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Product/coupleskulist",
+			"description": "二人购商品列表",
+			"descriptionFormat": "html",
+			"time": 1474449314675,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "22ab6513-b9c4-aceb-8c6d-1bd21de41f33",
