@@ -60,7 +60,8 @@
 		"7736e69c-0763-2d4a-aeb5-af14ce5a2fa3",
 		"34214030-fc99-8799-6ef9-8eb1365c1e5d",
 		"42434224-b195-76a7-18e2-3e09f83fd945",
-		"20cb813c-8849-c263-c561-2c73da097f8c"
+		"20cb813c-8849-c263-c561-2c73da097f8c",
+		"be4e6db8-bd53-7037-11cc-0b2151e653c8"
 	],
 	"folders": [],
 	"timestamp": 1469773216179,
@@ -1511,6 +1512,57 @@
 			"description": "app检查更新",
 			"collectionId": "5ed9d187-3f0d-a275-1fe3-4c35169feaef",
 			"responses": []
+		},
+		{
+			"id": "be4e6db8-bd53-7037-11cc-0b2151e653c8",
+			"headers": "",
+			"url": "{{beta openapi}}/user/recommendpinactivities?pinEventId=17",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "5ed9d187-3f0d-a275-1fe3-4c35169feaef",
+			"data": [
+				{
+					"key": "token",
+					"value": "16eb79225434a36036469f1115b44bee",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "585",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amount",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pinActivitiesId",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderType",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/user/recommendpinactivities",
+			"description": "二人购推荐热卖列表",
+			"descriptionFormat": "html",
+			"time": 1474516065190,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "bef7d068-0431-72d6-4005-cedfb06d2b77",

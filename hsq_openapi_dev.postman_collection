@@ -60,7 +60,8 @@
 		"cfce896a-2834-4515-07eb-df50b20c048c",
 		"e96971b2-af84-5670-cb26-b76f22064c72",
 		"19b5d050-b92f-6087-c1db-7d4340d64ed2",
-		"0de51a36-f2ae-a006-9cd4-5eb099ab0025"
+		"0de51a36-f2ae-a006-9cd4-5eb099ab0025",
+		"36feb4ce-e80e-c13f-2e8f-aabc7c689e7f"
 	],
 	"folders": [],
 	"timestamp": 1469771503996,
@@ -693,6 +694,57 @@
 			"name": "User/Feedback",
 			"description": "添加用户反馈",
 			"collectionId": "9c298774-091b-7508-efa2-65ab87b350ed"
+		},
+		{
+			"id": "36feb4ce-e80e-c13f-2e8f-aabc7c689e7f",
+			"headers": "",
+			"url": "{{dev openapi}}/user/recommendpinactivities?pinEventId=17",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "9c298774-091b-7508-efa2-65ab87b350ed",
+			"data": [
+				{
+					"key": "token",
+					"value": "16eb79225434a36036469f1115b44bee",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "skuId",
+					"value": "585",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amount",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pinActivitiesId",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderType",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "/user/recommendpinactivities",
+			"description": "二人购推荐热卖列表",
+			"descriptionFormat": "html",
+			"time": 1474516055198,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "384f15f9-e2cc-ff34-5821-967508ef85d3",

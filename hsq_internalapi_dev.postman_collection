@@ -225,7 +225,13 @@
 		"8a69d95c-01c2-e143-939c-0c9238efe841",
 		"94c64d23-4915-dae4-cc9c-f51f38519f9e",
 		"3431b07d-9407-6f66-0e87-f60822dfbd1f",
-		"bc9b7f7d-ef68-40ff-503a-2cda51749c2a"
+		"bc9b7f7d-ef68-40ff-503a-2cda51749c2a",
+		"edad0d0d-c3c3-eab6-1cac-75ad28499889",
+		"96d4bbd2-4143-61d4-faa9-e31eb7a48efb",
+		"97ea9490-2ab1-5dab-8520-13ed2e6ebc39",
+		"d430948c-bb34-e3db-3bce-3ea0cb29ef8e",
+		"297ce037-d9a6-7960-16ec-1e506be932f5",
+		"fd980bb9-1f24-7d5c-faca-29733ec3c34d"
 	],
 	"folders": [],
 	"timestamp": 1469771497888,
@@ -1269,6 +1275,26 @@
 			"description": "获取商户物流待处理订单",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "297ce037-d9a6-7960-16ec-1e506be932f5",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/pinactivitiesevents?eventIds=1,3",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/pinactivitiesevents",
+			"description": "批量拼团事件信息",
+			"descriptionFormat": "html",
+			"time": 1474534070032,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "2a0b420e-a4dd-d67f-f95a-10f1e97467e0",
@@ -4258,6 +4284,26 @@
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
 		},
 		{
+			"id": "96d4bbd2-4143-61d4-faa9-e31eb7a48efb",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/recommendpinactivities?pinEventId=1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/recommendpinactivities",
+			"description": "拼团活动推荐列表",
+			"descriptionFormat": "html",
+			"time": 1474533417548,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "972300d3-8a5a-0c21-8000-2df5ad512a98",
 			"headers": "",
 			"url": "{{dev internalapi}}/sku/addsku",
@@ -4358,6 +4404,26 @@
 			"name": "Sku/AddSku",
 			"description": "添加sku单品",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "97ea9490-2ab1-5dab-8520-13ed2e6ebc39",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/pinactivitiesinfo?pinActivitiesId=5",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/pinactivitiesinfo",
+			"description": "获取拼团活动信息",
+			"descriptionFormat": "html",
+			"time": 1474533619691,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "98f8d3c1-5c24-a160-aa6f-eb8d6dc01563",
@@ -6105,6 +6171,33 @@
 			"helperAttributes": {}
 		},
 		{
+			"id": "d430948c-bb34-e3db-3bce-3ea0cb29ef8e",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/pinactivitieseventinfo",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "pinActivitiesEventId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "ump/pinactivitieseventinfo",
+			"description": "拼团事件信息 ",
+			"descriptionFormat": "html",
+			"time": 1474533963680,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "d443c24e-bd84-eb30-dccd-9a7a23cece7a",
 			"headers": "",
 			"url": "{{dev internalapi}}/tradeorder/deliverymessage?orderId=15",
@@ -6942,6 +7035,26 @@
 			"responses": []
 		},
 		{
+			"id": "edad0d0d-c3c3-eab6-1cac-75ad28499889",
+			"headers": "",
+			"url": "{{dev internalapi}}/product/pinactivitiesproductlist",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/product/pinactivitiesproductlist",
+			"description": "拼团活动列表",
+			"descriptionFormat": "html",
+			"time": 1474533224867,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "ee9721d3-cb97-dde0-8dd5-c4a0ba8ce4c0",
 			"headers": "",
 			"url": "{{dev internalapi}}/product/updateproduct",
@@ -7394,6 +7507,26 @@
 			"name": "Sku/SkuStock",
 			"description": "获取单品库存信息",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b"
+		},
+		{
+			"id": "fd980bb9-1f24-7d5c-faca-29733ec3c34d",
+			"headers": "",
+			"url": "{{dev internalapi}}/ump/multipinactivitiesinfo?pinActivitiesIds=10,11",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": null,
+			"dataMode": "params",
+			"name": "/ump/multipinactivitiesinfo",
+			"description": "批量拼团活动信息",
+			"descriptionFormat": "html",
+			"time": 1474534118101,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "fe94ec8e-ae47-3373-e42e-f0f1fac6e1ae",
