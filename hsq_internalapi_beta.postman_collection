@@ -231,7 +231,8 @@
 		"969502d5-fc91-1130-6a58-d8f215947a08",
 		"e76a089b-4564-339a-1786-a2fa1e369a75",
 		"5e799f3a-b7d8-6379-b904-0bf65144dc67",
-		"aeba40bf-2ed4-87a7-22b7-df432cdb0ccb"
+		"aeba40bf-2ed4-87a7-22b7-df432cdb0ccb",
+		"a4e2b923-5588-4849-3eb4-2226e47453b7"
 	],
 	"folders": [],
 	"timestamp": 1469774768300,
@@ -4996,6 +4997,39 @@
 			"name": "TradeOrder/PaymentWay",
 			"description": "获取支付方式",
 			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
+		},
+		{
+			"id": "a4e2b923-5588-4849-3eb4-2226e47453b7",
+			"headers": "",
+			"url": "{{beta internalapi}}/sku/updateskusectioninfo",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lowestPrice",
+					"value": "3600",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "sku/updateskusectioninfo",
+			"description": "更新sku单品部分信息  ",
+			"descriptionFormat": "html",
+			"time": 1474956058447,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "a50d58a8-a78e-fedf-96d5-23b383b0b0fc",

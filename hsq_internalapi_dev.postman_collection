@@ -231,7 +231,8 @@
 		"97ea9490-2ab1-5dab-8520-13ed2e6ebc39",
 		"d430948c-bb34-e3db-3bce-3ea0cb29ef8e",
 		"297ce037-d9a6-7960-16ec-1e506be932f5",
-		"fd980bb9-1f24-7d5c-faca-29733ec3c34d"
+		"fd980bb9-1f24-7d5c-faca-29733ec3c34d",
+		"7298e0b1-0f36-dafc-c520-f699d0cbdf61"
 	],
 	"folders": [],
 	"timestamp": 1469771497888,
@@ -3226,6 +3227,39 @@
 			"description": "保存活动规则",
 			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
 			"responses": []
+		},
+		{
+			"id": "7298e0b1-0f36-dafc-c520-f699d0cbdf61",
+			"headers": "",
+			"url": "{{dev internalapi}}/sku/updateskusectioninfo",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f906a9ee-1c9d-975e-15c4-d5b99cfd931b",
+			"data": [
+				{
+					"key": "skuId",
+					"value": "101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lowestPrice",
+					"value": "3600",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "sku/updateskusectioninfo",
+			"description": "更新sku单品部分信息  ",
+			"descriptionFormat": "html",
+			"time": 1474956049255,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "72a4c721-1087-f955-5726-61f92b229be4",
