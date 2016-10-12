@@ -232,7 +232,9 @@
 		"e76a089b-4564-339a-1786-a2fa1e369a75",
 		"5e799f3a-b7d8-6379-b904-0bf65144dc67",
 		"aeba40bf-2ed4-87a7-22b7-df432cdb0ccb",
-		"a4e2b923-5588-4849-3eb4-2226e47453b7"
+		"a4e2b923-5588-4849-3eb4-2226e47453b7",
+		"c95fe45e-fd57-31d2-3d66-86d33229efb5",
+		"83443321-c903-5c9c-a137-fc7bbefd6c5f"
 	],
 	"folders": [],
 	"timestamp": 1469774768300,
@@ -4209,6 +4211,26 @@
 			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9"
 		},
 		{
+			"id": "83443321-c903-5c9c-a137-fc7bbefd6c5f",
+			"headers": "",
+			"url": "{{beta internalapi}}/common/addtopnavigate?icon=http://img.haoshiqi.net/img/yinliaochongtiao.png&jumpType=3&jumpUrl=haoshiqi://com.doweidu/category?categoryName=饮料冲调%26categoryId=2&label=饮料冲调&clientType=0&enabled=1&priority=1&version=1&type=4",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/common/addtopnavigate",
+			"description": "添加顶部导航数据接口",
+			"descriptionFormat": "html",
+			"time": 1476264079593,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
 			"id": "83fd0794-7aea-aef3-ba5e-678230ee42d8",
 			"headers": "",
 			"url": "{{beta internalapi}}/common/addindexmodule",
@@ -5983,6 +6005,26 @@
 			"description": "创建商户对账单",
 			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
 			"responses": []
+		},
+		{
+			"id": "c95fe45e-fd57-31d2-3d66-86d33229efb5",
+			"headers": "",
+			"url": "{{beta internalapi}}/common/topnavigatelist?pageLimit=1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "74bd446e-cfd6-1564-3cae-f282acd547d9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/common/topnavigatelist",
+			"description": "获取首页导航数据列表",
+			"descriptionFormat": "html",
+			"time": 1476263965325,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		},
 		{
 			"id": "ca3c7642-d5c8-18a0-eb4a-d0b04d69508e",
