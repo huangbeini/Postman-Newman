@@ -1,0 +1,54 @@
+{
+	"id": "93bac800-6530-86f9-6f71-105a749421c6",
+	"name": "debug",
+	"description": "调试集合",
+	"order": [
+		"0156baea-cad4-1b1a-e06a-a6e6d15821e4",
+		"be58cf59-53ea-6240-7787-0f3c9f81c8f5"
+	],
+	"folders": [],
+	"timestamp": 1470650456222,
+	"owner": "278877",
+	"public": false,
+	"requests": [
+		{
+			"id": "0156baea-cad4-1b1a-e06a-a6e6d15821e4",
+			"headers": "",
+			"url": "{{dev openapi}}/product/productlist",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\n\ntests[\"Body matches string\"] = responseBody.has(\"code\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1482832383653,
+			"name": "Product/ProductList",
+			"description": "商品列表",
+			"collectionId": "93bac800-6530-86f9-6f71-105a749421c6",
+			"responses": []
+		},
+		{
+			"id": "be58cf59-53ea-6240-7787-0f3c9f81c8f5",
+			"headers": "",
+			"url": "{{dev openapi}}/common/initconfig",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "93bac800-6530-86f9-6f71-105a749421c6",
+			"data": [],
+			"dataMode": "params",
+			"name": "Common/InitConfig",
+			"description": "初始化配置",
+			"descriptionFormat": "html",
+			"time": 1482976410927,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\n\ntests[\"Body matches string\"] = responseBody.has(\"aboutUs\");",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
