@@ -1,0 +1,33 @@
+{
+	"id": "93bac800-6530-86f9-6f71-105a749421c6",
+	"name": "debug",
+	"description": "调试集合",
+	"order": [
+		"be58cf59-53ea-6240-7787-0f3c9f81c8f5"
+	],
+	"folders": [],
+	"timestamp": 1470650456222,
+	"owner": "278877",
+	"public": false,
+	"requests": [
+		{
+			"id": "be58cf59-53ea-6240-7787-0f3c9f81c8f5",
+			"headers": "",
+			"url": "{{dev openapi}}/common/initconfig",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\ntests[\"Body matches string\"] = responseBody.has(\"aboutUs\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1484719339054,
+			"name": "Common/InitConfig",
+			"description": "初始化配置",
+			"collectionId": "93bac800-6530-86f9-6f71-105a749421c6",
+			"responses": []
+		}
+	]
+}
